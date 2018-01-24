@@ -1,0 +1,2643 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2017-04-19 10:11+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/AdTypesController.php:55;80
+#: Controller/Admin/AdTypesController.php:55;81
+msgid "The ad type has been saved."
+msgstr ""
+
+#: Controller/AdTypesController.php:59;84
+#: Controller/Admin/AdTypesController.php:59;85
+msgid "The ad type could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/AdTypesController.php:102
+#: Controller/Admin/AdTypesController.php:104
+msgid "The ad type has been deleted."
+msgstr ""
+
+#: Controller/AdTypesController.php:104
+#: Controller/Admin/AdTypesController.php:106
+msgid "The ad type could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/AdsController.php:58;87
+#: Controller/Admin/AdsController.php:91;134
+msgid "The ad has been saved."
+msgstr ""
+
+#: Controller/AdsController.php:62;91
+#: Controller/Admin/AdsController.php:98;138
+msgid "The ad could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/AdsController.php:113
+#: Controller/Admin/AdsController.php:161
+msgid "The ad has been deleted."
+msgstr ""
+
+#: Controller/AdsController.php:115
+#: Controller/Admin/AdsController.php:163
+msgid "The ad could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/AnnouncesController.php:37;44;333;391;439;520
+#: Controller/PostsController.php:53
+msgid "Page not found"
+msgstr ""
+
+#: Controller/AnnouncesController.php:396;444
+msgid "This announce is waiting for validation !"
+msgstr ""
+
+#: Controller/AnnouncesController.php:401;449
+msgid "This announce is expired !"
+msgstr ""
+
+#: Controller/AnnouncesController.php:454
+msgid "This announce is no more online !"
+msgstr ""
+
+#: Controller/AnnouncesController.php:493
+msgid "The announce has been saved. You have to wait our validation !"
+msgstr ""
+
+#: Controller/AnnouncesController.php:498;558;618
+#: Controller/Admin/AnnouncesController.php:100;130
+msgid "The announce could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/AnnouncesController.php:554;614
+#: Controller/Admin/AnnouncesController.php:96;126
+msgid "The announce has been saved."
+msgstr ""
+
+#: Controller/AnnouncesController.php:640
+msgid "You can not be online now ! Your announce have to be online or you dont have the right contract."
+msgstr ""
+
+#: Controller/AnnouncesController.php:645
+#: Controller/Admin/AnnouncesController.php:33
+msgid "Usted ahora está conectado por 3 horas ! - Vous êtes maintenant connecté pendant 3 heures ! - You are now connected for 3 hours !"
+msgstr ""
+
+#: Controller/AppController.php:69
+msgid "You are not authorized to do this! Update your contract."
+msgstr ""
+
+#: Controller/CategoriesController.php:55;81
+#: Controller/Admin/CategoriesController.php:55;81
+msgid "The category has been saved."
+msgstr ""
+
+#: Controller/CategoriesController.php:59;85
+#: Controller/Admin/CategoriesController.php:59;85
+msgid "The category could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/CategoriesController.php:104
+#: Controller/Admin/CategoriesController.php:104
+msgid "The category has been deleted."
+msgstr ""
+
+#: Controller/CategoriesController.php:106
+#: Controller/Admin/CategoriesController.php:106
+msgid "The category could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/ContactsController.php:34
+msgid "Merci pour votre message, nous vous contacterons prochainement."
+msgstr ""
+
+#: Controller/ContactsController.php:38
+#: Controller/Admin/ContactsController.php:73;99
+msgid "The contact could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/PageInfosController.php:55;80
+#: Controller/Admin/PageInfosController.php:70;96
+msgid "The page info has been saved."
+msgstr ""
+
+#: Controller/PageInfosController.php:59;84
+#: Controller/Admin/PageInfosController.php:74;100
+msgid "The page info could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/PageInfosController.php:102
+#: Controller/Admin/PageInfosController.php:119
+msgid "The page info has been deleted."
+msgstr ""
+
+#: Controller/PageInfosController.php:104
+#: Controller/Admin/PageInfosController.php:121
+msgid "The page info could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/PicsController.php:45;85
+#: Controller/Admin/PicsController.php:31;50;124;151
+msgid "The pic has been saved."
+msgstr ""
+
+#: Controller/PicsController.php:62
+msgid "Please fix the following error(s): "
+msgstr ""
+
+#: Controller/PicsController.php:88
+#: Controller/Admin/PicsController.php:34;54;128;155
+msgid "The pic could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/PicsController.php:111
+#: Controller/Admin/PicsController.php:69;175
+msgid "The pic has been deleted."
+msgstr ""
+
+#: Controller/PicsController.php:113
+#: Controller/Admin/PicsController.php:71;177
+msgid "The pic could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:32
+#: Controller/Admin/UsersController.php:108;135
+msgid "The user has been saved."
+msgstr ""
+
+#: Controller/UsersController.php:36
+#: Controller/Admin/UsersController.php:112;139
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:60
+msgid "Nom d'utilisateur ou mot de passe incorrect"
+msgstr ""
+
+#: Controller/UsersController.php:88
+msgid "User not found :-/"
+msgstr ""
+
+#: Controller/UsersController.php:123
+#: Controller/Admin/UsersController.php:48
+msgid "The password has been saved."
+msgstr ""
+
+#: Controller/UsersController.php:125
+#: Controller/Admin/UsersController.php:52
+msgid "The password could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/AnnouncesController.php:156
+msgid "The announce has been archived."
+msgstr ""
+
+#: Controller/Admin/AnnouncesController.php:173
+msgid "The announce has been deleted."
+msgstr ""
+
+#: Controller/Admin/AnnouncesController.php:175
+msgid "The announce could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/BannersController.php:56;82
+msgid "The banner has been saved."
+msgstr ""
+
+#: Controller/Admin/BannersController.php:60;86
+msgid "The banner could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/BannersController.php:105
+msgid "The banner has been deleted."
+msgstr ""
+
+#: Controller/Admin/BannersController.php:107
+msgid "The banner could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/CitiesController.php:80;108
+msgid "The city has been saved."
+msgstr ""
+
+#: Controller/Admin/CitiesController.php:84;112
+msgid "The city could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/CitiesController.php:133
+msgid "The city has been deleted."
+msgstr ""
+
+#: Controller/Admin/CitiesController.php:135
+msgid "The city could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/ContactsController.php:69;95
+msgid "The contact has been saved."
+msgstr ""
+
+#: Controller/Admin/ContactsController.php:118
+msgid "The contact has been deleted."
+msgstr ""
+
+#: Controller/Admin/ContactsController.php:120
+msgid "The contact could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/ContractTypesController.php:55;81
+msgid "The contract type has been saved."
+msgstr ""
+
+#: Controller/Admin/ContractTypesController.php:59;85
+msgid "The contract type could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/ContractTypesController.php:104
+msgid "The contract type has been deleted."
+msgstr ""
+
+#: Controller/Admin/ContractTypesController.php:106
+msgid "The contract type could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/ContractsController.php:122
+msgid "The contract & the user has been saved."
+msgstr ""
+
+#: Controller/Admin/ContractsController.php:135;226;275
+msgid "The contract could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/ContractsController.php:222;256
+msgid "The contract has been saved."
+msgstr ""
+
+#: Controller/Admin/ContractsController.php:312
+msgid "The contract has been deleted."
+msgstr ""
+
+#: Controller/Admin/ContractsController.php:314
+msgid "The contract could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/GroupsController.php:55;81
+msgid "The group has been saved."
+msgstr ""
+
+#: Controller/Admin/GroupsController.php:59;85
+msgid "The group could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/GroupsController.php:104
+msgid "The group has been deleted."
+msgstr ""
+
+#: Controller/Admin/GroupsController.php:106
+msgid "The group could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/MetaTypesController.php:55;81
+msgid "The meta type has been saved."
+msgstr ""
+
+#: Controller/Admin/MetaTypesController.php:59;85
+msgid "The meta type could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/MetaTypesController.php:104
+msgid "The meta type has been deleted."
+msgstr ""
+
+#: Controller/Admin/MetaTypesController.php:106
+msgid "The meta type could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/MetasController.php:71;98
+msgid "The meta has been saved."
+msgstr ""
+
+#: Controller/Admin/MetasController.php:75;102
+msgid "The meta could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/MetasController.php:122
+msgid "The meta has been deleted."
+msgstr ""
+
+#: Controller/Admin/MetasController.php:124
+msgid "The meta could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/NotificationsController.php:23
+msgid "The notification has been sent."
+msgstr ""
+
+#: Controller/Admin/NotificationsController.php:69;95
+msgid "The notification has been saved."
+msgstr ""
+
+#: Controller/Admin/NotificationsController.php:73;99
+msgid "The notification could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/NotificationsController.php:118
+msgid "The notification has been deleted."
+msgstr ""
+
+#: Controller/Admin/NotificationsController.php:120
+msgid "The notification could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/PartnersController.php:55;81
+msgid "The partner has been saved."
+msgstr ""
+
+#: Controller/Admin/PartnersController.php:59;85
+msgid "The partner could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/PartnersController.php:104
+msgid "The partner has been deleted."
+msgstr ""
+
+#: Controller/Admin/PartnersController.php:106
+msgid "The partner could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/PostsController.php:80;106
+msgid "The post has been saved."
+msgstr ""
+
+#: Controller/Admin/PostsController.php:84;110
+msgid "The post could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/PostsController.php:129
+msgid "The post has been deleted."
+msgstr ""
+
+#: Controller/Admin/PostsController.php:131
+msgid "The post could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/StatesController.php:78;104
+msgid "The state has been saved."
+msgstr ""
+
+#: Controller/Admin/StatesController.php:82;108
+msgid "The state could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/StatesController.php:127
+msgid "The state has been deleted."
+msgstr ""
+
+#: Controller/Admin/StatesController.php:129
+msgid "The state could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/ToplistsController.php:62;88
+msgid "The toplist has been saved."
+msgstr ""
+
+#: Controller/Admin/ToplistsController.php:66;92
+msgid "The toplist could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/ToplistsController.php:112
+msgid "The toplist has been deleted."
+msgstr ""
+
+#: Controller/Admin/ToplistsController.php:114
+msgid "The toplist could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/UsersController.php:159
+msgid "The user has been deleted."
+msgstr ""
+
+#: Controller/Admin/UsersController.php:161
+msgid "The user could not be deleted. Please, try again."
+msgstr ""
+
+#: Mailer/UserMailer.php:23
+msgid "Your new password"
+msgstr ""
+
+#: Model/Table/PicsTable.php:108
+msgid "Wrong file size. Max 500kb"
+msgstr ""
+
+#: Model/Table/PicsTable.php:112
+msgid "Wrong file type. Only .gif, .jpeg, .png , .jpg"
+msgstr ""
+
+#: Template/AdTypes/add.ctp:8
+#: Template/AdTypes/edit.ctp:8
+#: Template/AdTypes/index.ctp:8;23
+#: Template/AdTypes/view.ctp:8;55
+#: Template/Admin/AdTypes/index.ctp:39
+#: Template/Admin/AdTypes/view.ctp:80
+#: Template/Admin/Ads/index.ctp:42
+#: Template/Admin/Announces/index.ctp:45
+#: Template/Admin/Announces/view.ctp:137
+#: Template/Admin/Banners/index.ctp:40
+#: Template/Admin/Categories/index.ctp:42
+#: Template/Admin/Categories/view.ctp:88;143
+#: Template/Admin/Cities/index.ctp:40
+#: Template/Admin/Cities/view.ctp:69
+#: Template/Admin/Contacts/index.ctp:40
+#: Template/Admin/ContractTypes/index.ctp:37
+#: Template/Admin/ContractTypes/view.ctp:71
+#: Template/Admin/Contracts/check_validity.ctp:41;76
+#: Template/Admin/Contracts/index.ctp:47
+#: Template/Admin/Contracts/index_.ctp:42
+#: Template/Admin/Contracts/view.ctp:93;126
+#: Template/Admin/Contracts/view_.ctp:76;108
+#: Template/Admin/Groups/index.ctp:39
+#: Template/Admin/Groups/view.ctp:69
+#: Template/Admin/MetaTypes/index.ctp:38
+#: Template/Admin/MetaTypes/view.ctp:63
+#: Template/Admin/Metas/index.ctp:39
+#: Template/Admin/Notifications/index.ctp:38
+#: Template/Admin/PageInfos/index.ctp:41
+#: Template/Admin/Partners/index.ctp:38
+#: Template/Admin/Posts/index.ctp:39
+#: Template/Admin/States/index.ctp:39
+#: Template/Admin/States/view.ctp:76;131;177
+#: Template/Admin/Toplists/index.ctp:40
+#: Template/Admin/Users/index.ctp:41
+#: Template/Admin/Users/view.ctp:86;121;161
+#: Template/Ads/add.ctp:8
+#: Template/Ads/edit.ctp:8
+#: Template/Ads/index.ctp:8;38
+#: Template/Ads/view.ctp:8
+#: Template/Bake/Template/index.ctp:71
+#: Template/Bake/Template/view.ctp:172
+#: Template/Categories/index.ctp:39
+#: Template/Categories/view.ctp:76;132
+#: Template/PageInfos/add.ctp:8
+#: Template/PageInfos/edit.ctp:8
+#: Template/PageInfos/index.ctp:8;21
+#: Template/PageInfos/view.ctp:8
+#: Template/Pics/index.ctp:42
+#: Template/States/index.ctp:38
+#: Template/States/view.ctp:72;128;174
+msgid "Actions"
+msgstr ""
+
+#: Template/AdTypes/add.ctp:9
+#: Template/AdTypes/edit.ctp:15
+#: Template/AdTypes/view.ctp:11
+#: Template/Admin/AdTypes/add.ctp:20
+#: Template/Admin/AdTypes/edit.ctp:26
+#: Template/Ads/add.ctp:10
+#: Template/Ads/edit.ctp:16
+#: Template/Ads/index.ctp:10
+#: Template/Ads/view.ctp:13
+msgid "List Ad Types"
+msgstr ""
+
+#: Template/AdTypes/add.ctp:10
+#: Template/AdTypes/edit.ctp:16
+#: Template/AdTypes/index.ctp:10
+#: Template/AdTypes/view.ctp:13
+#: Template/Admin/Ads/add.ctp:20
+#: Template/Admin/Ads/edit.ctp:26
+#: Template/Ads/add.ctp:9
+#: Template/Ads/edit.ctp:15
+#: Template/Ads/view.ctp:11
+msgid "List Ads"
+msgstr ""
+
+#: Template/AdTypes/add.ctp:11
+#: Template/AdTypes/edit.ctp:17
+#: Template/AdTypes/index.ctp:11
+#: Template/AdTypes/view.ctp:14
+#: Template/Ads/index.ctp:9
+#: Template/Ads/view.ctp:12
+msgid "New Ad"
+msgstr ""
+
+#: Template/AdTypes/add.ctp:17
+#: Template/Admin/AdTypes/add.ctp:32
+msgid "Add Ad Type"
+msgstr ""
+
+#: Template/AdTypes/add.ctp:24
+#: Template/AdTypes/edit.ctp:30
+#: Template/Admin/AdTypes/add.ctp:48
+#: Template/Admin/AdTypes/edit.ctp:54
+#: Template/Admin/Ads/add.ctp:55
+#: Template/Admin/Ads/edit.ctp:62
+#: Template/Admin/Announces/add.ctp:96
+#: Template/Admin/Announces/edit.ctp:96
+#: Template/Admin/Banners/add.ctp:49
+#: Template/Admin/Banners/edit.ctp:55
+#: Template/Admin/Categories/add.ctp:48
+#: Template/Admin/Categories/edit.ctp:54
+#: Template/Admin/Cities/add.ctp:49
+#: Template/Admin/Cities/edit.ctp:55
+#: Template/Admin/Contacts/add.ctp:48
+#: Template/Admin/Contacts/edit.ctp:54
+#: Template/Admin/ContractTypes/add.ctp:47
+#: Template/Admin/ContractTypes/edit.ctp:53
+#: Template/Admin/Contracts/add.ctp:51
+#: Template/Admin/Contracts/edit.ctp:70
+#: Template/Admin/Contracts/management.ctp:64
+#: Template/Admin/Contracts/set_contract_and_user.ctp:63
+#: Template/Admin/Groups/add.ctp:47
+#: Template/Admin/Groups/edit.ctp:53
+#: Template/Admin/MetaTypes/add.ctp:46
+#: Template/Admin/MetaTypes/edit.ctp:52
+#: Template/Admin/Metas/add.ctp:48
+#: Template/Admin/Metas/edit.ctp:54
+#: Template/Admin/Notifications/add.ctp:47
+#: Template/Admin/Notifications/edit.ctp:53
+#: Template/Admin/PageInfos/add.ctp:49
+#: Template/Admin/PageInfos/edit.ctp:55
+#: Template/Admin/Partners/add.ctp:48
+#: Template/Admin/Partners/edit.ctp:54
+#: Template/Admin/Pics/add.ctp:48
+#: Template/Admin/Pics/add_to_announce.ctp:47
+#: Template/Admin/Pics/edit.ctp:57
+#: Template/Admin/Posts/add.ctp:51
+#: Template/Admin/Posts/edit.ctp:57
+#: Template/Admin/States/add.ctp:47
+#: Template/Admin/States/edit.ctp:53
+#: Template/Admin/Toplists/add.ctp:54
+#: Template/Admin/Toplists/edit.ctp:63
+#: Template/Admin/Users/add.ctp:50
+#: Template/Admin/Users/change_password.ctp:52
+#: Template/Admin/Users/edit.ctp:56
+#: Template/Ads/add.ctp:37
+#: Template/Ads/edit.ctp:43
+#: Template/Announces/add.ctp:44
+#: Template/Announces/add_premium.ctp:37
+#: Template/Announces/edit_my_announce.ctp:32
+#: Template/Bake/Element/form.ctp:156
+#: Template/Categories/add.ctp:47
+#: Template/Categories/edit.ctp:53
+#: Template/Contacts/add.ctp:19
+#: Template/PageInfos/add.ctp:23
+#: Template/PageInfos/edit.ctp:29
+#: Template/Pics/add.ctp:48
+#: Template/Pics/add_replace.ctp:8
+#: Template/Pics/edit.ctp:54
+#: Template/States/add.ctp:46
+#: Template/States/edit.ctp:52
+#: Template/Users/change_password.ctp:8
+#: Template/Users/recover.ctp:9
+#: View/Helper/FormHelper.php:1887
+msgid "Submit"
+msgstr ""
+
+#: Template/AdTypes/edit.ctp:10
+#: Template/AdTypes/index.ctp:36
+#: Template/AdTypes/view.ctp:75
+#: Template/Admin/AdTypes/edit.ctp:21
+#: Template/Admin/AdTypes/view.ctp:21
+#: Template/Admin/Ads/edit.ctp:21
+#: Template/Admin/Ads/view.ctp:21
+#: Template/Admin/Announces/edit.ctp:21
+#: Template/Admin/Announces/view.ctp:23
+#: Template/Admin/Banners/edit.ctp:21
+#: Template/Admin/Banners/view.ctp:21
+#: Template/Admin/Categories/edit.ctp:21
+#: Template/Admin/Categories/view.ctp:21
+#: Template/Admin/Cities/edit.ctp:21
+#: Template/Admin/Cities/view.ctp:21
+#: Template/Admin/Contacts/edit.ctp:21
+#: Template/Admin/Contacts/view.ctp:21
+#: Template/Admin/ContractTypes/edit.ctp:21
+#: Template/Admin/ContractTypes/view.ctp:21
+#: Template/Admin/Contracts/edit.ctp:21
+#: Template/Admin/Contracts/view.ctp:21
+#: Template/Admin/Contracts/view_.ctp:21
+#: Template/Admin/Groups/edit.ctp:21
+#: Template/Admin/Groups/view.ctp:21
+#: Template/Admin/MetaTypes/edit.ctp:21
+#: Template/Admin/MetaTypes/view.ctp:21
+#: Template/Admin/Metas/edit.ctp:21
+#: Template/Admin/Metas/view.ctp:21
+#: Template/Admin/Notifications/edit.ctp:21
+#: Template/Admin/Notifications/view.ctp:21
+#: Template/Admin/PageInfos/edit.ctp:21
+#: Template/Admin/PageInfos/view.ctp:21
+#: Template/Admin/Partners/edit.ctp:21
+#: Template/Admin/Partners/view.ctp:21
+#: Template/Admin/Pics/edit.ctp:21
+#: Template/Admin/Pics/view.ctp:21
+#: Template/Admin/Posts/edit.ctp:21
+#: Template/Admin/Posts/view.ctp:21
+#: Template/Admin/States/edit.ctp:21
+#: Template/Admin/States/view.ctp:21
+#: Template/Admin/Toplists/edit.ctp:21
+#: Template/Admin/Toplists/view.ctp:21
+#: Template/Admin/Users/change_password.ctp:21
+#: Template/Admin/Users/edit.ctp:21
+#: Template/Admin/Users/view.ctp:21
+#: Template/Ads/edit.ctp:10
+#: Template/Ads/index.ctp:60
+#: Template/Bake/Element/form.ctp:49
+#: Template/Bake/Template/view.ctp:74
+#: Template/Categories/edit.ctp:21
+#: Template/Categories/view.ctp:21
+#: Template/PageInfos/edit.ctp:10
+#: Template/PageInfos/index.ctp:34
+#: Template/Pics/edit.ctp:21
+#: Template/Pics/my_pics.ctp:10
+#: Template/States/edit.ctp:21
+#: Template/States/view.ctp:21
+msgid "Delete"
+msgstr ""
+
+#: Template/AdTypes/edit.ctp:12
+#: Template/AdTypes/index.ctp:36
+#: Template/AdTypes/view.ctp:10;75
+#: Template/Admin/AdTypes/edit.ctp:23
+#: Template/Admin/AdTypes/index.ctp:52
+#: Template/Admin/AdTypes/view.ctp:21
+#: Template/Admin/Ads/edit.ctp:23
+#: Template/Admin/Ads/index.ctp:61
+#: Template/Admin/Ads/view.ctp:21
+#: Template/Admin/Announces/edit.ctp:23
+#: Template/Admin/Announces/view.ctp:23;163
+#: Template/Admin/Banners/edit.ctp:23
+#: Template/Admin/Banners/index.ctp:52
+#: Template/Admin/Banners/view.ctp:21
+#: Template/Admin/Categories/edit.ctp:23
+#: Template/Admin/Categories/index.ctp:57
+#: Template/Admin/Categories/view.ctp:21
+#: Template/Admin/Cities/edit.ctp:23
+#: Template/Admin/Cities/index.ctp:53
+#: Template/Admin/Cities/view.ctp:21
+#: Template/Admin/Contacts/edit.ctp:23
+#: Template/Admin/Contacts/index.ctp:53
+#: Template/Admin/Contacts/view.ctp:21
+#: Template/Admin/ContractTypes/edit.ctp:23
+#: Template/Admin/ContractTypes/index.ctp:48
+#: Template/Admin/ContractTypes/view.ctp:21
+#: Template/Admin/Contracts/edit.ctp:23
+#: Template/Admin/Contracts/index.ctp:64
+#: Template/Admin/Contracts/index_.ctp:57
+#: Template/Admin/Contracts/view.ctp:21
+#: Template/Admin/Contracts/view_.ctp:21
+#: Template/Admin/Groups/edit.ctp:23
+#: Template/Admin/Groups/index.ctp:51
+#: Template/Admin/Groups/view.ctp:21
+#: Template/Admin/MetaTypes/edit.ctp:23
+#: Template/Admin/MetaTypes/index.ctp:49
+#: Template/Admin/MetaTypes/view.ctp:21
+#: Template/Admin/Metas/edit.ctp:23
+#: Template/Admin/Metas/index.ctp:51
+#: Template/Admin/Metas/view.ctp:21
+#: Template/Admin/Notifications/edit.ctp:23
+#: Template/Admin/Notifications/index.ctp:49
+#: Template/Admin/Notifications/view.ctp:21
+#: Template/Admin/PageInfos/edit.ctp:23
+#: Template/Admin/PageInfos/index.ctp:54
+#: Template/Admin/PageInfos/view.ctp:21
+#: Template/Admin/Partners/edit.ctp:23
+#: Template/Admin/Partners/index.ctp:50
+#: Template/Admin/Partners/view.ctp:21
+#: Template/Admin/Pics/edit.ctp:23
+#: Template/Admin/Pics/index.ctp:38
+#: Template/Admin/Pics/view.ctp:21
+#: Template/Admin/Posts/edit.ctp:23
+#: Template/Admin/Posts/index.ctp:51
+#: Template/Admin/Posts/view.ctp:21
+#: Template/Admin/States/edit.ctp:23
+#: Template/Admin/States/index.ctp:51
+#: Template/Admin/States/view.ctp:21
+#: Template/Admin/Toplists/edit.ctp:23
+#: Template/Admin/Toplists/index.ctp:54
+#: Template/Admin/Toplists/view.ctp:21
+#: Template/Admin/Users/change_password.ctp:23
+#: Template/Admin/Users/edit.ctp:23
+#: Template/Admin/Users/index.ctp:56
+#: Template/Admin/Users/view.ctp:21
+#: Template/Ads/edit.ctp:12
+#: Template/Ads/index.ctp:60
+#: Template/Ads/view.ctp:10
+#: Template/Bake/Element/form.ctp:51
+#: Template/Bake/Template/index.ctp:107
+#: Template/Bake/Template/view.ctp:74
+#: Template/Categories/edit.ctp:23
+#: Template/Categories/index.ctp:51
+#: Template/Categories/view.ctp:21
+#: Template/PageInfos/edit.ctp:12
+#: Template/PageInfos/index.ctp:34
+#: Template/PageInfos/view.ctp:10
+#: Template/Pics/edit.ctp:23
+#: Template/Pics/index.ctp:57
+#: Template/Pics/my_pics.ctp:10
+#: Template/States/edit.ctp:23
+#: Template/States/index.ctp:49
+#: Template/States/view.ctp:21
+msgid "Are you sure you want to delete # {0}?"
+msgstr ""
+
+#: Template/AdTypes/edit.ctp:23
+#: Template/AdTypes/view.ctp:9
+#: Template/Admin/AdTypes/edit.ctp:38
+msgid "Edit Ad Type"
+msgstr ""
+
+#: Template/AdTypes/index.ctp:9
+#: Template/AdTypes/view.ctp:12
+#: Template/Ads/add.ctp:11
+#: Template/Ads/edit.ctp:17
+#: Template/Ads/index.ctp:11
+#: Template/Ads/view.ctp:14
+msgid "New Ad Type"
+msgstr ""
+
+#: Template/AdTypes/index.ctp:15
+#: Template/Admin/AdTypes/add.ctp:16
+#: Template/Admin/AdTypes/edit.ctp:16
+#: Template/Admin/AdTypes/index.ctp:16
+#: Template/Admin/Element/sidebar.ctp:44
+msgid "Ad Types"
+msgstr ""
+
+#: Template/AdTypes/index.ctp:34
+#: Template/AdTypes/view.ctp:73
+#: Template/Admin/AdTypes/view.ctp:98
+#: Template/Admin/Announces/view.ctp:146
+#: Template/Admin/Categories/view.ctp:106;168
+#: Template/Admin/Cities/view.ctp:76
+#: Template/Admin/ContractTypes/view.ctp:82
+#: Template/Admin/Contracts/view.ctp:103;137
+#: Template/Admin/Contracts/view_.ctp:86;118
+#: Template/Admin/Groups/view.ctp:80
+#: Template/Admin/MetaTypes/view.ctp:72
+#: Template/Admin/States/view.ctp:94;156;186
+#: Template/Admin/Users/view.ctp:98;132;178
+#: Template/Ads/index.ctp:58
+#: Template/Bake/Template/view.ctp:181
+#: Template/Categories/view.ctp:94;158
+#: Template/PageInfos/index.ctp:32
+#: Template/States/view.ctp:90;154;182
+msgid "View"
+msgstr ""
+
+#: Template/AdTypes/index.ctp:35
+#: Template/AdTypes/view.ctp:74
+#: Template/Admin/AdTypes/view.ctp:20
+#: Template/Admin/Ads/view.ctp:20
+#: Template/Admin/Announces/view.ctp:21
+#: Template/Admin/Banners/view.ctp:20
+#: Template/Admin/Categories/view.ctp:20
+#: Template/Admin/Cities/view.ctp:20
+#: Template/Admin/Contacts/view.ctp:20
+#: Template/Admin/ContractTypes/view.ctp:20
+#: Template/Admin/Contracts/view.ctp:20
+#: Template/Admin/Contracts/view_.ctp:20
+#: Template/Admin/Groups/view.ctp:20
+#: Template/Admin/MetaTypes/view.ctp:20
+#: Template/Admin/Metas/view.ctp:20
+#: Template/Admin/Notifications/view.ctp:20
+#: Template/Admin/PageInfos/view.ctp:20
+#: Template/Admin/Partners/view.ctp:20
+#: Template/Admin/Pics/view.ctp:20
+#: Template/Admin/Posts/view.ctp:20
+#: Template/Admin/States/view.ctp:20
+#: Template/Admin/Toplists/view.ctp:20
+#: Template/Admin/Users/view.ctp:20
+#: Template/Ads/index.ctp:59
+#: Template/Bake/Template/view.ctp:73
+#: Template/Categories/view.ctp:20
+#: Template/PageInfos/index.ctp:33
+#: Template/States/view.ctp:20
+msgid "Edit"
+msgstr ""
+
+#: Template/AdTypes/index.ctp:44
+#: Template/Admin/AdTypes/index.ctp:66
+#: Template/Admin/Ads/index.ctp:75
+#: Template/Admin/Announces/index.ctp:76
+#: Template/Admin/Banners/index.ctp:66
+#: Template/Admin/Categories/index.ctp:71
+#: Template/Admin/Cities/index.ctp:67
+#: Template/Admin/Contacts/index.ctp:67
+#: Template/Admin/ContractTypes/index.ctp:62
+#: Template/Admin/Contracts/index.ctp:78
+#: Template/Admin/Contracts/index_.ctp:71
+#: Template/Admin/Groups/index.ctp:65
+#: Template/Admin/MetaTypes/index.ctp:63
+#: Template/Admin/Metas/index.ctp:65
+#: Template/Admin/Notifications/index.ctp:63
+#: Template/Admin/PageInfos/index.ctp:68
+#: Template/Admin/Partners/index.ctp:64
+#: Template/Admin/Pics/index.ctp:48
+#: Template/Admin/Posts/index.ctp:65
+#: Template/Admin/States/index.ctp:65
+#: Template/Admin/Toplists/index.ctp:68
+#: Template/Admin/Users/index.ctp:70
+#: Template/Ads/index.ctp:68
+#: Template/Announces/free_index.ctp:48
+#: Template/Bake/Template/index.ctp:121
+#: Template/PageInfos/index.ctp:42
+#: Template/Pics/index.ctp:71
+#: Template/Posts/index.ctp:41
+msgid "first"
+msgstr ""
+
+#: Template/AdTypes/index.ctp:45
+#: Template/Admin/AdTypes/index.ctp:67
+#: Template/Admin/Ads/index.ctp:76
+#: Template/Admin/Announces/index.ctp:77
+#: Template/Admin/Banners/index.ctp:67
+#: Template/Admin/Categories/index.ctp:72
+#: Template/Admin/Cities/index.ctp:68
+#: Template/Admin/Contacts/index.ctp:68
+#: Template/Admin/ContractTypes/index.ctp:63
+#: Template/Admin/Contracts/index.ctp:79
+#: Template/Admin/Contracts/index_.ctp:72
+#: Template/Admin/Groups/index.ctp:66
+#: Template/Admin/MetaTypes/index.ctp:64
+#: Template/Admin/Metas/index.ctp:66
+#: Template/Admin/Notifications/index.ctp:64
+#: Template/Admin/PageInfos/index.ctp:69
+#: Template/Admin/Partners/index.ctp:65
+#: Template/Admin/Pics/index.ctp:49
+#: Template/Admin/Posts/index.ctp:66
+#: Template/Admin/States/index.ctp:66
+#: Template/Admin/Toplists/index.ctp:69
+#: Template/Admin/Users/index.ctp:71
+#: Template/Ads/index.ctp:69
+#: Template/Announces/free_index.ctp:49
+#: Template/Bake/Template/index.ctp:122
+#: Template/Categories/index.ctp:59
+#: Template/PageInfos/index.ctp:43
+#: Template/Pics/index.ctp:72
+#: Template/Posts/index.ctp:42
+#: Template/States/index.ctp:57
+msgid "previous"
+msgstr ""
+
+#: Template/AdTypes/index.ctp:47
+#: Template/Admin/AdTypes/index.ctp:69
+#: Template/Admin/Ads/index.ctp:78
+#: Template/Admin/Announces/index.ctp:79
+#: Template/Admin/Banners/index.ctp:69
+#: Template/Admin/Categories/index.ctp:74
+#: Template/Admin/Cities/index.ctp:70
+#: Template/Admin/Contacts/index.ctp:70
+#: Template/Admin/ContractTypes/index.ctp:65
+#: Template/Admin/Contracts/index.ctp:81
+#: Template/Admin/Contracts/index_.ctp:74
+#: Template/Admin/Groups/index.ctp:68
+#: Template/Admin/MetaTypes/index.ctp:66
+#: Template/Admin/Metas/index.ctp:68
+#: Template/Admin/Notifications/index.ctp:66
+#: Template/Admin/PageInfos/index.ctp:71
+#: Template/Admin/Partners/index.ctp:67
+#: Template/Admin/Pics/index.ctp:51
+#: Template/Admin/Posts/index.ctp:68
+#: Template/Admin/States/index.ctp:68
+#: Template/Admin/Toplists/index.ctp:71
+#: Template/Admin/Users/index.ctp:73
+#: Template/Ads/index.ctp:71
+#: Template/Announces/free_index.ctp:51
+#: Template/Bake/Template/index.ctp:124
+#: Template/Categories/index.ctp:61
+#: Template/PageInfos/index.ctp:45
+#: Template/Pics/index.ctp:74
+#: Template/Posts/index.ctp:44
+#: Template/States/index.ctp:59
+msgid "next"
+msgstr ""
+
+#: Template/AdTypes/index.ctp:48
+#: Template/Admin/AdTypes/index.ctp:70
+#: Template/Admin/Ads/index.ctp:79
+#: Template/Admin/Announces/index.ctp:80
+#: Template/Admin/Banners/index.ctp:70
+#: Template/Admin/Categories/index.ctp:75
+#: Template/Admin/Cities/index.ctp:71
+#: Template/Admin/Contacts/index.ctp:71
+#: Template/Admin/ContractTypes/index.ctp:66
+#: Template/Admin/Contracts/index.ctp:82
+#: Template/Admin/Contracts/index_.ctp:75
+#: Template/Admin/Groups/index.ctp:69
+#: Template/Admin/MetaTypes/index.ctp:67
+#: Template/Admin/Metas/index.ctp:69
+#: Template/Admin/Notifications/index.ctp:67
+#: Template/Admin/PageInfos/index.ctp:72
+#: Template/Admin/Partners/index.ctp:68
+#: Template/Admin/Pics/index.ctp:52
+#: Template/Admin/Posts/index.ctp:69
+#: Template/Admin/States/index.ctp:69
+#: Template/Admin/Toplists/index.ctp:72
+#: Template/Admin/Users/index.ctp:74
+#: Template/Ads/index.ctp:72
+#: Template/Announces/free_index.ctp:52
+#: Template/Bake/Template/index.ctp:125
+#: Template/PageInfos/index.ctp:46
+#: Template/Pics/index.ctp:75
+#: Template/Posts/index.ctp:45
+msgid "last"
+msgstr ""
+
+#: Template/AdTypes/index.ctp:50
+#: Template/Admin/AdTypes/index.ctp:16
+#: Template/Admin/Ads/index.ctp:16
+#: Template/Admin/Announces/index.ctp:16
+#: Template/Admin/Banners/index.ctp:16
+#: Template/Admin/Categories/index.ctp:16
+#: Template/Admin/Cities/index.ctp:16
+#: Template/Admin/Contacts/index.ctp:16
+#: Template/Admin/ContractTypes/index.ctp:16
+#: Template/Admin/Contracts/index.ctp:16
+#: Template/Admin/Contracts/index_.ctp:16
+#: Template/Admin/Groups/index.ctp:16
+#: Template/Admin/MetaTypes/index.ctp:16
+#: Template/Admin/Metas/index.ctp:16
+#: Template/Admin/Notifications/index.ctp:16
+#: Template/Admin/PageInfos/index.ctp:16
+#: Template/Admin/Partners/index.ctp:16
+#: Template/Admin/Pics/index.ctp:16
+#: Template/Admin/Posts/index.ctp:16
+#: Template/Admin/States/index.ctp:16
+#: Template/Admin/Toplists/index.ctp:16
+#: Template/Admin/Users/index.ctp:16
+#: Template/Ads/index.ctp:74
+#: Template/Announces/free_index.ctp:54
+#: Template/Bake/Template/index.ctp:48
+#: Template/PageInfos/index.ctp:48
+#: Template/Pics/index.ctp:16
+#: Template/Posts/index.ctp:47
+msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+msgstr ""
+
+#: Template/AdTypes/view.ctp:10
+msgid "Delete Ad Type"
+msgstr ""
+
+#: Template/AdTypes/view.ctp:21
+#: Template/Admin/AdTypes/view.ctp:40
+#: Template/Admin/Announces/view.ctp:134
+#: Template/Admin/Categories/view.ctp:40
+#: Template/Admin/Cities/view.ctp:40
+#: Template/Admin/ContractTypes/view.ctp:40
+#: Template/Admin/Groups/view.ctp:40
+#: Template/Admin/MetaTypes/view.ctp:40
+#: Template/Admin/PageInfos/view.ctp:40
+#: Template/Admin/States/view.ctp:40;174
+#: Template/Categories/view.ctp:40
+#: Template/PageInfos/view.ctp:19
+#: Template/States/view.ctp:40;172
+msgid "Name"
+msgstr ""
+
+#: Template/AdTypes/view.ctp:25;42
+#: Template/Admin/AdTypes/view.ctp:44;67
+#: Template/Admin/Ads/view.ctp:71
+#: Template/Admin/Announces/view.ctp:111;133
+#: Template/Admin/Banners/view.ctp:52
+#: Template/Admin/Categories/view.ctp:52;75;123
+#: Template/Admin/Cities/view.ctp:52
+#: Template/Admin/Contacts/view.ctp:52
+#: Template/Admin/ContractTypes/view.ctp:44;65
+#: Template/Admin/Contracts/view.ctp:56;121
+#: Template/Admin/Contracts/view_.ctp:48;103
+#: Template/Admin/Groups/view.ctp:48;63
+#: Template/Admin/MetaTypes/view.ctp:44;59
+#: Template/Admin/Metas/view.ctp:48
+#: Template/Admin/Partners/view.ctp:44
+#: Template/Admin/Pics/view.ctp:52
+#: Template/Admin/States/view.ctp:48;63;111;173
+#: Template/Admin/Users/view.ctp:60;79;115;149
+#: Template/Ads/view.ctp:55
+#: Template/Categories/view.ctp:48;63;111
+#: Template/PageInfos/view.ctp:31
+#: Template/States/view.ctp:44;59;107;171
+msgid "Id"
+msgstr ""
+
+#: Template/AdTypes/view.ctp:29
+#: Template/Admin/AdTypes/view.ctp:48
+msgid "Height"
+msgstr ""
+
+#: Template/AdTypes/view.ctp:33
+#: Template/Admin/AdTypes/view.ctp:52
+msgid "Width"
+msgstr ""
+
+#: Template/AdTypes/view.ctp:38
+#: Template/Admin/AdTypes/view.ctp:60
+#: Template/Admin/Categories/view.ctp:68
+#: Template/Admin/Contracts/view.ctp:80
+#: Template/Admin/Contracts/view_.ctp:64
+#: Template/Admin/States/view.ctp:56
+#: Template/Categories/view.ctp:56
+#: Template/States/view.ctp:52
+msgid "Related Ads"
+msgstr ""
+
+#: Template/AdTypes/view.ctp:43
+#: Template/Admin/AdTypes/view.ctp:68
+#: Template/Admin/Ads/view.ctp:79
+#: Template/Admin/Announces/view.ctp:115
+#: Template/Admin/Categories/view.ctp:56;76;124
+#: Template/Admin/Contacts/view.ctp:40
+#: Template/Admin/Contracts/view.ctp:60;122
+#: Template/Admin/Groups/view.ctp:64
+#: Template/Admin/Posts/view.ctp:59
+#: Template/Admin/States/view.ctp:64;112
+#: Template/Admin/Toplists/view.ctp:81
+#: Template/Admin/Users/view.ctp:64;80;150
+#: Template/Ads/view.ctp:63
+#: Template/Announces/my_announce.ctp:11
+#: Template/Categories/view.ctp:64;112
+#: Template/States/view.ctp:60;108
+msgid "Created"
+msgstr ""
+
+#: Template/AdTypes/view.ctp:44
+#: Template/Admin/AdTypes/view.ctp:69
+#: Template/Admin/Ads/view.ctp:83
+#: Template/Admin/Announces/view.ctp:119
+#: Template/Admin/Categories/view.ctp:60;77;125
+#: Template/Admin/Contracts/view.ctp:64
+#: Template/Admin/States/view.ctp:65;113
+#: Template/Admin/Toplists/view.ctp:85
+#: Template/Admin/Users/view.ctp:81;151
+#: Template/Ads/view.ctp:67
+#: Template/Announces/my_announce.ctp:13
+#: Template/Categories/view.ctp:65;113
+#: Template/States/view.ctp:61;109
+msgid "Modified"
+msgstr ""
+
+#: Template/AdTypes/view.ctp:45
+#: Template/Admin/AdTypes/view.ctp:70
+#: Template/Admin/Ads/view.ctp:43
+#: Template/Admin/Banners/view.ctp:40
+#: Template/Admin/Categories/view.ctp:78
+#: Template/Admin/Contracts/view_.ctp:72
+#: Template/Admin/States/view.ctp:66
+#: Template/Admin/Users/view.ctp:152
+#: Template/Ads/view.ctp:27
+#: Template/Categories/view.ctp:66
+#: Template/States/view.ctp:62
+msgid "Pic Url"
+msgstr ""
+
+#: Template/AdTypes/view.ctp:46
+#: Template/Admin/AdTypes/view.ctp:71
+#: Template/Admin/Ads/view.ctp:47
+#: Template/Admin/Banners/view.ctp:44
+#: Template/Admin/Categories/view.ctp:79
+#: Template/Admin/Contracts/view.ctp:89
+#: Template/Admin/Contracts/view_.ctp:73
+#: Template/Admin/MetaTypes/view.ctp:61
+#: Template/Admin/Metas/view.ctp:40
+#: Template/Admin/PageInfos/view.ctp:44
+#: Template/Admin/Pics/view.ctp:40
+#: Template/Admin/States/view.ctp:67
+#: Template/Admin/Toplists/view.ctp:69
+#: Template/Admin/Users/view.ctp:153
+#: Template/Ads/view.ctp:31
+#: Template/Categories/view.ctp:67
+#: Template/PageInfos/view.ctp:23
+#: Template/States/view.ctp:63
+msgid "Url"
+msgstr ""
+
+#: Template/AdTypes/view.ctp:47
+#: Template/Admin/AdTypes/view.ctp:72
+#: Template/Admin/Ads/view.ctp:51
+#: Template/Admin/Categories/view.ctp:80
+#: Template/Admin/Pics/view.ctp:44
+#: Template/Admin/States/view.ctp:68
+#: Template/Ads/view.ctp:35
+#: Template/Categories/view.ctp:68
+#: Template/States/view.ctp:64
+msgid "Alt"
+msgstr ""
+
+#: Template/AdTypes/view.ctp:48
+#: Template/Admin/AdTypes/view.ctp:73
+#: Template/Admin/Ads/view.ctp:87
+#: Template/Admin/Categories/view.ctp:81
+#: Template/Admin/Contracts/view.ctp:40;90
+#: Template/Admin/Contracts/view_.ctp:74
+#: Template/Admin/Posts/view.ctp:63
+#: Template/Admin/States/view.ctp:69
+#: Template/Admin/Users/view.ctp:40
+#: Template/Ads/view.ctp:71
+#: Template/Categories/view.ctp:69
+#: Template/States/view.ctp:65
+msgid "Active"
+msgstr ""
+
+#: Template/AdTypes/view.ctp:49
+#: Template/Admin/AdTypes/view.ctp:74
+#: Template/Admin/Ads/view.ctp:91
+#: Template/Admin/Categories/view.ctp:82
+#: Template/Admin/Contracts/view_.ctp:75
+#: Template/Admin/States/view.ctp:70
+#: Template/Admin/Toplists/view.ctp:89
+#: Template/Admin/Users/view.ctp:157
+#: Template/Ads/view.ctp:75
+#: Template/Categories/view.ctp:70
+#: Template/States/view.ctp:66
+msgid "No Follow"
+msgstr ""
+
+#: Template/AdTypes/view.ctp:50
+#: Template/Admin/AdTypes/view.ctp:75
+#: Template/Admin/Ads/view.ctp:75
+#: Template/Admin/Categories/view.ctp:83
+#: Template/Admin/States/view.ctp:71
+#: Template/Ads/view.ctp:59
+#: Template/Categories/view.ctp:71
+#: Template/States/view.ctp:67
+msgid "Clicked"
+msgstr ""
+
+#: Template/AdTypes/view.ctp:51
+#: Template/Admin/AdTypes/view.ctp:76
+#: Template/Admin/Categories/view.ctp:84
+#: Template/Admin/States/view.ctp:72
+#: Template/Categories/view.ctp:72
+#: Template/States/view.ctp:68
+msgid "Ad Type Id"
+msgstr ""
+
+#: Template/AdTypes/view.ctp:52
+#: Template/Admin/AdTypes/view.ctp:77
+#: Template/Admin/Categories/view.ctp:85;140
+#: Template/Admin/States/view.ctp:73;128
+#: Template/Categories/view.ctp:73;129
+#: Template/States/view.ctp:69;125
+msgid "Contract Id"
+msgstr ""
+
+#: Template/AdTypes/view.ctp:53
+#: Template/Admin/AdTypes/view.ctp:78
+#: Template/Admin/Announces/view.ctp:136
+#: Template/Admin/Categories/view.ctp:86;141
+#: Template/Admin/States/view.ctp:74;129;176
+#: Template/Categories/view.ctp:74;130
+#: Template/States/view.ctp:70;126;173
+msgid "State Id"
+msgstr ""
+
+#: Template/AdTypes/view.ctp:54
+#: Template/Admin/AdTypes/view.ctp:79
+#: Template/Admin/Categories/view.ctp:87;142
+#: Template/Admin/States/view.ctp:75;130
+#: Template/Categories/view.ctp:75;131
+#: Template/States/view.ctp:71;127
+msgid "Category Id"
+msgstr ""
+
+#: Template/Admin/AdTypes/index.ctp:21
+#: Template/Admin/AdTypes/view.ctp:22
+#: Template/Admin/Ads/index.ctp:21
+#: Template/Admin/Ads/view.ctp:22
+#: Template/Admin/Announces/index.ctp:21
+#: Template/Admin/Announces/view.ctp:24
+#: Template/Admin/Banners/index.ctp:21
+#: Template/Admin/Banners/view.ctp:22
+#: Template/Admin/Categories/index.ctp:21
+#: Template/Admin/Categories/view.ctp:22
+#: Template/Admin/Cities/index.ctp:21
+#: Template/Admin/Cities/view.ctp:22
+#: Template/Admin/Contacts/index.ctp:21
+#: Template/Admin/Contacts/view.ctp:22
+#: Template/Admin/ContractTypes/index.ctp:21
+#: Template/Admin/ContractTypes/view.ctp:22
+#: Template/Admin/Contracts/index.ctp:24
+#: Template/Admin/Contracts/index_.ctp:21
+#: Template/Admin/Contracts/view.ctp:22
+#: Template/Admin/Contracts/view_.ctp:22
+#: Template/Admin/Groups/index.ctp:21
+#: Template/Admin/Groups/view.ctp:22
+#: Template/Admin/MetaTypes/index.ctp:21
+#: Template/Admin/MetaTypes/view.ctp:22
+#: Template/Admin/Metas/index.ctp:21
+#: Template/Admin/Metas/view.ctp:22
+#: Template/Admin/Notifications/index.ctp:21
+#: Template/Admin/Notifications/view.ctp:22
+#: Template/Admin/PageInfos/index.ctp:21
+#: Template/Admin/PageInfos/view.ctp:22
+#: Template/Admin/Partners/index.ctp:21
+#: Template/Admin/Partners/view.ctp:22
+#: Template/Admin/Pics/index.ctp:21
+#: Template/Admin/Pics/view.ctp:22
+#: Template/Admin/Posts/index.ctp:21
+#: Template/Admin/Posts/view.ctp:22
+#: Template/Admin/States/index.ctp:21
+#: Template/Admin/States/view.ctp:22
+#: Template/Admin/Toplists/index.ctp:21
+#: Template/Admin/Toplists/view.ctp:22
+#: Template/Admin/Users/index.ctp:21
+#: Template/Admin/Users/view.ctp:22
+#: Template/Bake/Template/index.ctp:53
+#: Template/Bake/Template/view.ctp:75
+#: Template/Categories/index.ctp:22
+#: Template/Categories/view.ctp:22
+#: Template/Pics/index.ctp:21
+#: Template/States/index.ctp:22
+#: Template/States/view.ctp:22
+msgid "New"
+msgstr ""
+
+#: Template/Admin/AdTypes/view.ctp:23
+#: Template/Admin/Ads/view.ctp:23
+#: Template/Admin/Announces/view.ctp:25
+#: Template/Admin/Banners/view.ctp:23
+#: Template/Admin/Categories/view.ctp:23
+#: Template/Admin/Cities/view.ctp:23
+#: Template/Admin/Contacts/view.ctp:23
+#: Template/Admin/ContractTypes/view.ctp:23
+#: Template/Admin/Contracts/view.ctp:23
+#: Template/Admin/Contracts/view_.ctp:23
+#: Template/Admin/Groups/view.ctp:23
+#: Template/Admin/MetaTypes/view.ctp:23
+#: Template/Admin/Metas/view.ctp:23
+#: Template/Admin/Notifications/view.ctp:23
+#: Template/Admin/PageInfos/view.ctp:23
+#: Template/Admin/Partners/view.ctp:23
+#: Template/Admin/Pics/view.ctp:23
+#: Template/Admin/Posts/view.ctp:23
+#: Template/Admin/States/view.ctp:23
+#: Template/Admin/Toplists/view.ctp:23
+#: Template/Admin/Users/view.ctp:23
+#: Template/Bake/Template/view.ctp:76
+#: Template/Categories/view.ctp:23
+#: Template/States/view.ctp:23
+msgid "List"
+msgstr ""
+
+#: Template/Admin/Ads/add.ctp:16
+#: Template/Admin/Ads/edit.ctp:16
+#: Template/Admin/Ads/index.ctp:16
+#: Template/Admin/Contracts/check_validity.ctp:68
+#: Template/Admin/Element/sidebar.ctp:13
+#: Template/Ads/index.ctp:21
+msgid "Ads"
+msgstr ""
+
+#: Template/Admin/Ads/add.ctp:32
+#: Template/Ads/add.ctp:23
+msgid "Add Ad"
+msgstr ""
+
+#: Template/Admin/Ads/edit.ctp:38
+#: Template/Ads/edit.ctp:29
+#: Template/Ads/view.ctp:9
+msgid "Edit Ad"
+msgstr ""
+
+#: Template/Admin/Ads/view.ctp:55
+#: Template/Admin/Contracts/view.ctp:91
+#: Template/Ads/view.ctp:39
+msgid "Ad Type"
+msgstr ""
+
+#: Template/Admin/Ads/view.ctp:59
+#: Template/Admin/Announces/view.ctp:99
+#: Template/Ads/view.ctp:43
+msgid "Contract"
+msgstr ""
+
+#: Template/Admin/Ads/view.ctp:63
+#: Template/Admin/Announces/view.ctp:103
+#: Template/Admin/Cities/view.ctp:48
+#: Template/Ads/view.ctp:47
+msgid "State"
+msgstr ""
+
+#: Template/Admin/Ads/view.ctp:67
+#: Template/Admin/Announces/view.ctp:107
+#: Template/Admin/Contracts/view.ctp:92
+#: Template/Ads/view.ctp:51
+msgid "Category"
+msgstr ""
+
+#: Template/Admin/Ads/view.ctp:88;92
+#: Template/Admin/Contracts/view.ctp:41;99
+#: Template/Admin/Posts/view.ctp:64
+#: Template/Admin/Toplists/view.ctp:90
+#: Template/Admin/Users/view.ctp:41
+#: Template/Ads/view.ctp:72;76
+#: Template/Bake/Template/view.ctp:137
+msgid "Yes"
+msgstr ""
+
+#: Template/Admin/Ads/view.ctp:88;92
+#: Template/Admin/Contracts/view.ctp:41;99
+#: Template/Admin/Posts/view.ctp:64
+#: Template/Admin/Toplists/view.ctp:90
+#: Template/Admin/Users/view.ctp:41
+#: Template/Ads/view.ctp:72;76
+#: Template/Bake/Template/view.ctp:137
+msgid "No"
+msgstr ""
+
+#: Template/Admin/Announces/add.ctp:16
+#: Template/Admin/Announces/edit.ctp:16
+#: Template/Admin/Announces/index.ctp:16
+#: Template/Admin/Contracts/check_validity.ctp:31
+#: Template/Admin/Element/sidebar.ctp:7
+msgid "Announces"
+msgstr ""
+
+#: Template/Admin/Announces/add.ctp:20
+#: Template/Admin/Announces/edit.ctp:26
+msgid "List Announces"
+msgstr ""
+
+#: Template/Admin/Announces/add.ctp:32
+msgid "Add Announce"
+msgstr ""
+
+#: Template/Admin/Announces/edit.ctp:38
+msgid "Public info."
+msgstr ""
+
+#: Template/Admin/Announces/view.ctp:20
+#: Template/Admin/Contracts/management.ctp:32
+msgid "Management"
+msgstr ""
+
+#: Template/Admin/Announces/view.ctp:22
+msgid "Archived"
+msgstr ""
+
+#: Template/Admin/Announces/view.ctp:42
+msgid "Announce n° "
+msgstr ""
+
+#: Template/Admin/Announces/view.ctp:47
+#: Template/Admin/Categories/view.ctp:127
+#: Template/Admin/Contracts/view.ctp:123
+#: Template/Admin/Contracts/view_.ctp:104
+#: Template/Admin/States/view.ctp:115
+#: Template/Admin/Users/view.ctp:83
+#: Template/Categories/view.ctp:115
+#: Template/States/view.ctp:111
+msgid "Type"
+msgstr ""
+
+#: Template/Admin/Announces/view.ctp:53
+#: Template/Admin/Categories/view.ctp:128
+#: Template/Admin/Contracts/view.ctp:124
+#: Template/Admin/Contracts/view_.ctp:105
+#: Template/Admin/States/view.ctp:116
+#: Template/Admin/Toplists/view.ctp:73
+#: Template/Admin/Users/view.ctp:84;156
+#: Template/Categories/view.ctp:117
+#: Template/States/view.ctp:113
+msgid "Status"
+msgstr ""
+
+#: Template/Admin/Announces/view.ctp:59
+#: Template/Admin/Categories/view.ctp:126
+#: Template/Admin/States/view.ctp:114
+#: Template/Categories/view.ctp:114
+#: Template/States/view.ctp:110
+msgid "Connected"
+msgstr ""
+
+#: Template/Admin/Announces/view.ctp:67
+#: Template/Admin/Categories/view.ctp:129
+#: Template/Admin/Contacts/view.ctp:44
+#: Template/Admin/Contracts/view_.ctp:106
+#: Template/Admin/States/view.ctp:117
+#: Template/Categories/view.ctp:118
+#: Template/States/view.ctp:114
+msgid "Firstname"
+msgstr ""
+
+#: Template/Admin/Announces/view.ctp:71
+#: Template/Admin/Categories/view.ctp:132
+#: Template/Admin/Contacts/view.ctp:48
+#: Template/Admin/Groups/view.ctp:65
+#: Template/Admin/States/view.ctp:120
+#: Template/Admin/Users/view.ctp:44
+#: Template/Categories/view.ctp:121
+#: Template/States/view.ctp:117
+msgid "Email"
+msgstr ""
+
+#: Template/Admin/Announces/view.ctp:75
+#: Template/Admin/Categories/view.ctp:133
+#: Template/Admin/States/view.ctp:121
+#: Template/Categories/view.ctp:122
+#: Template/States/view.ctp:118
+msgid "Phone"
+msgstr ""
+
+#: Template/Admin/Announces/view.ctp:79
+#: Template/Admin/Categories/view.ctp:134
+#: Template/Admin/States/view.ctp:122
+msgid "Out In"
+msgstr ""
+
+#: Template/Admin/Announces/view.ctp:83
+#: Template/Admin/Categories/view.ctp:135
+#: Template/Admin/States/view.ctp:123
+#: Template/Categories/view.ctp:124
+#: Template/States/view.ctp:120
+msgid "Website"
+msgstr ""
+
+#: Template/Admin/Announces/view.ctp:87
+#: Template/Admin/Banners/view.ctp:48
+#: Template/Admin/Categories/view.ctp:136
+#: Template/Admin/Cities/view.ctp:67
+#: Template/Admin/Contracts/view.ctp:125
+#: Template/Admin/Contracts/view_.ctp:107
+#: Template/Admin/Partners/view.ctp:40
+#: Template/Admin/States/view.ctp:124
+#: Template/Admin/Users/view.ctp:85;154
+#: Template/Categories/view.ctp:125
+#: Template/States/view.ctp:121
+msgid "Title"
+msgstr ""
+
+#: Template/Admin/Announces/view.ctp:91;135
+#: Template/Admin/Categories/view.ctp:44;138
+#: Template/Admin/Cities/view.ctp:44;68
+#: Template/Admin/States/view.ctp:44;126;175
+#: Template/Categories/view.ctp:127
+#: Template/States/view.ctp:123
+msgid "Slug"
+msgstr ""
+
+#: Template/Admin/Announces/view.ctp:95
+#: Template/Admin/Contracts/view.ctp:52
+#: Template/Admin/Contracts/view_.ctp:44
+#: Template/Admin/Toplists/view.ctp:77
+msgid "User"
+msgstr ""
+
+#: Template/Admin/Announces/view.ctp:123
+#: Template/Admin/Categories/view.ctp:131
+#: Template/Admin/States/view.ctp:119
+#: Template/Categories/view.ctp:120
+#: Template/States/view.ctp:116
+msgid "Birthday"
+msgstr ""
+
+#: Template/Admin/Announces/view.ctp:128
+#: Template/Admin/States/view.ctp:166
+#: Template/States/view.ctp:164
+msgid "Related Cities"
+msgstr ""
+
+#: Template/Admin/Announces/view.ctp:153
+msgid "Related Pics"
+msgstr ""
+
+#: Template/Admin/Banners/add.ctp:16
+#: Template/Admin/Banners/edit.ctp:16
+#: Template/Admin/Banners/index.ctp:16
+msgid "Banners"
+msgstr ""
+
+#: Template/Admin/Banners/add.ctp:20
+#: Template/Admin/Banners/edit.ctp:26
+msgid "List Banners"
+msgstr ""
+
+#: Template/Admin/Banners/add.ctp:32
+msgid "Add Banner"
+msgstr ""
+
+#: Template/Admin/Banners/edit.ctp:38
+msgid "Edit Banner"
+msgstr ""
+
+#: Template/Admin/Banners/view.ctp:58
+#: Template/Admin/Categories/view.ctp:48
+#: Template/Admin/ContractTypes/view.ctp:50
+#: Template/Admin/Groups/view.ctp:44
+#: Template/Admin/Users/view.ctp:155
+#: Template/Categories/view.ctp:44
+msgid "Description"
+msgstr ""
+
+#: Template/Admin/Categories/add.ctp:16
+#: Template/Admin/Categories/edit.ctp:16
+#: Template/Admin/Categories/index.ctp:16
+#: Template/Admin/Element/sidebar.ctp:49
+#: Template/Categories/add.ctp:16
+#: Template/Categories/edit.ctp:16
+#: Template/Categories/index.ctp:16
+msgid "Categories"
+msgstr ""
+
+#: Template/Admin/Categories/add.ctp:20
+#: Template/Admin/Categories/edit.ctp:26
+#: Template/Ads/add.ctp:16
+#: Template/Ads/edit.ctp:22
+#: Template/Ads/index.ctp:16
+#: Template/Ads/view.ctp:19
+#: Template/Categories/add.ctp:20
+#: Template/Categories/edit.ctp:26
+msgid "List Categories"
+msgstr ""
+
+#: Template/Admin/Categories/add.ctp:32
+#: Template/Categories/add.ctp:32
+msgid "Add Category"
+msgstr ""
+
+#: Template/Admin/Categories/edit.ctp:38
+#: Template/Categories/edit.ctp:38
+msgid "Edit Category"
+msgstr ""
+
+#: Template/Admin/Categories/view.ctp:116
+#: Template/Admin/Cities/view.ctp:60
+#: Template/Admin/Contracts/view.ctp:113
+#: Template/Admin/Contracts/view_.ctp:96
+#: Template/Admin/States/view.ctp:104
+#: Template/Admin/Users/view.ctp:72
+#: Template/Categories/view.ctp:104
+#: Template/States/view.ctp:100
+msgid "Related Announces"
+msgstr ""
+
+#: Template/Admin/Categories/view.ctp:130
+#: Template/Admin/ContractTypes/view.ctp:66
+#: Template/Admin/Contracts/view.ctp:44
+#: Template/Admin/States/view.ctp:118
+#: Template/Admin/Users/view.ctp:116
+#: Template/Categories/view.ctp:119
+#: Template/States/view.ctp:115
+msgid "Label"
+msgstr ""
+
+#: Template/Admin/Categories/view.ctp:137
+#: Template/Admin/States/view.ctp:125
+#: Template/Categories/view.ctp:126
+#: Template/States/view.ctp:122
+msgid "Presentation"
+msgstr ""
+
+#: Template/Admin/Categories/view.ctp:139
+#: Template/Admin/ContractTypes/view.ctp:70
+#: Template/Admin/States/view.ctp:127
+#: Template/Admin/Users/view.ctp:120;160
+#: Template/Categories/view.ctp:128
+#: Template/States/view.ctp:124
+msgid "User Id"
+msgstr ""
+
+#: Template/Admin/Cities/add.ctp:16
+#: Template/Admin/Cities/edit.ctp:16
+#: Template/Admin/Cities/index.ctp:16
+#: Template/Admin/Element/sidebar.ctp:36
+msgid "Cities"
+msgstr ""
+
+#: Template/Admin/Cities/add.ctp:20
+#: Template/Admin/Cities/edit.ctp:26
+msgid "List Cities"
+msgstr ""
+
+#: Template/Admin/Cities/add.ctp:32
+msgid "Add City"
+msgstr ""
+
+#: Template/Admin/Cities/edit.ctp:38
+msgid "Edit City"
+msgstr ""
+
+#: Template/Admin/Contacts/add.ctp:16
+#: Template/Admin/Contacts/edit.ctp:16
+#: Template/Admin/Contacts/index.ctp:16
+#: Template/Admin/Element/sidebar.ctp:41
+msgid "Contacts"
+msgstr ""
+
+#: Template/Admin/Contacts/add.ctp:20
+#: Template/Admin/Contacts/edit.ctp:26
+msgid "List Contacts"
+msgstr ""
+
+#: Template/Admin/Contacts/add.ctp:32
+msgid "Add Contact"
+msgstr ""
+
+#: Template/Admin/Contacts/edit.ctp:38
+msgid "Edit Contact"
+msgstr ""
+
+#: Template/Admin/Contacts/view.ctp:58
+#: Template/Admin/Notifications/view.ctp:42
+msgid "Message"
+msgstr ""
+
+#: Template/Admin/ContractTypes/add.ctp:16
+#: Template/Admin/ContractTypes/edit.ctp:16
+#: Template/Admin/ContractTypes/index.ctp:16
+msgid "Contract Types"
+msgstr ""
+
+#: Template/Admin/ContractTypes/add.ctp:20
+#: Template/Admin/ContractTypes/edit.ctp:26
+msgid "List Contract Types"
+msgstr ""
+
+#: Template/Admin/ContractTypes/add.ctp:32
+msgid "Add Contract Type"
+msgstr ""
+
+#: Template/Admin/ContractTypes/edit.ctp:38
+msgid "Edit Contract Type"
+msgstr ""
+
+#: Template/Admin/ContractTypes/view.ctp:58
+#: Template/Admin/Users/view.ctp:108
+msgid "Related Contracts"
+msgstr ""
+
+#: Template/Admin/ContractTypes/view.ctp:67
+#: Template/Admin/Contracts/view.ctp:68
+#: Template/Admin/Contracts/view_.ctp:52
+#: Template/Admin/Users/view.ctp:117
+msgid "Start"
+msgstr ""
+
+#: Template/Admin/ContractTypes/view.ctp:68
+#: Template/Admin/Contracts/view.ctp:72
+#: Template/Admin/Contracts/view_.ctp:56
+#: Template/Admin/Users/view.ctp:118
+msgid "End"
+msgstr ""
+
+#: Template/Admin/ContractTypes/view.ctp:69
+#: Template/Admin/Users/view.ctp:119
+msgid "Contract Type Id"
+msgstr ""
+
+#: Template/Admin/Contracts/add.ctp:16
+#: Template/Admin/Contracts/edit.ctp:16
+#: Template/Admin/Contracts/index.ctp:16
+#: Template/Admin/Contracts/index_.ctp:16
+#: Template/Admin/Contracts/management.ctp:16
+#: Template/Admin/Contracts/set_contract_and_user.ctp:16
+#: Template/Admin/Element/sidebar.ctp:21
+msgid "Contracts"
+msgstr ""
+
+#: Template/Admin/Contracts/add.ctp:20
+#: Template/Admin/Contracts/edit.ctp:26
+#: Template/Admin/Contracts/set_contract_and_user.ctp:20
+#: Template/Ads/add.ctp:12
+#: Template/Ads/edit.ctp:18
+#: Template/Ads/index.ctp:12
+#: Template/Ads/view.ctp:15
+msgid "List Contracts"
+msgstr ""
+
+#: Template/Admin/Contracts/add.ctp:32
+msgid "Add Contract"
+msgstr ""
+
+#: Template/Admin/Contracts/check_validity.ctp:20
+#: Template/Admin/Contracts/index.ctp:21
+msgid "Check Validity"
+msgstr ""
+
+#: Template/Admin/Contracts/edit.ctp:38
+msgid "Edit Contract"
+msgstr ""
+
+#: Template/Admin/Contracts/management.ctp:20
+#: Template/Admin/Layout/error.ctp:43
+#: Template/Layout/error.ctp:43
+#: Template/Pics/my_pics.ctp:24
+msgid "Back"
+msgstr ""
+
+#: Template/Admin/Contracts/set_contract_and_user.ctp:32
+msgid "Add Contract & User"
+msgstr ""
+
+#: Template/Admin/Contracts/view.ctp:48
+#: Template/Admin/Contracts/view_.ctp:40
+msgid "Contract Type"
+msgstr ""
+
+#: Template/Admin/Contracts/view.ctp:80;113
+msgid "Add"
+msgstr ""
+
+#: Template/Admin/Contracts/view.ctp:88;120
+msgid "Pic"
+msgstr ""
+
+#: Template/Admin/Element/search_index.ctp:8
+#: Template/Admin/Element/search_index_status.ctp:7
+msgid "Search..."
+msgstr ""
+
+#: Template/Admin/Element/sidebar.ctp:6
+msgid "Dashboard"
+msgstr ""
+
+#: Template/Admin/Element/sidebar.ctp:9
+msgid "Premium"
+msgstr ""
+
+#: Template/Admin/Element/sidebar.ctp:10
+msgid "Free"
+msgstr ""
+
+#: Template/Admin/Element/sidebar.ctp:15
+msgid "Header"
+msgstr ""
+
+#: Template/Admin/Element/sidebar.ctp:16
+msgid "Sponsor"
+msgstr ""
+
+#: Template/Admin/Element/sidebar.ctp:17
+msgid "Vista"
+msgstr ""
+
+#: Template/Admin/Element/sidebar.ctp:18
+#: Template/Announces/add.ctp:5
+#: Template/Announces/free_index.ctp:4
+#: Template/Announces/free_view.ctp:4
+#: Template/Announces/index.ctp:14
+#: Template/Announces/view.ctp:4
+#: Template/Posts/index.ctp:4
+#: Template/Posts/view.ctp:4
+#: Template/Toplists/index.ctp:4
+#: View/Helper/HtmlHelper.php:793
+msgid "Home"
+msgstr ""
+
+#: Template/Admin/Element/sidebar.ctp:22
+#: Template/Admin/Posts/add.ctp:16
+#: Template/Admin/Posts/edit.ctp:16
+#: Template/Admin/Posts/index.ctp:16
+msgid "Posts"
+msgstr ""
+
+#: Template/Admin/Element/sidebar.ctp:23
+#: Template/Admin/Partners/add.ctp:16
+#: Template/Admin/Partners/edit.ctp:16
+#: Template/Admin/Partners/index.ctp:16
+msgid "Partners"
+msgstr ""
+
+#: Template/Admin/Element/sidebar.ctp:24
+#: Template/Admin/Pics/add.ctp:16
+#: Template/Admin/Pics/add_to_announce.ctp:16
+#: Template/Admin/Pics/edit.ctp:16
+#: Template/Admin/Pics/index.ctp:16
+#: Template/Pics/add.ctp:16
+#: Template/Pics/edit.ctp:16
+#: Template/Pics/index.ctp:16
+msgid "Pics"
+msgstr ""
+
+#: Template/Admin/Element/sidebar.ctp:25
+msgid "Text blocks"
+msgstr ""
+
+#: Template/Admin/Element/sidebar.ctp:26
+#: Template/Admin/Metas/add.ctp:16
+#: Template/Admin/Metas/edit.ctp:16
+#: Template/Admin/Metas/index.ctp:16
+msgid "Metas"
+msgstr ""
+
+#: Template/Admin/Element/sidebar.ctp:28
+#: Template/Admin/Toplists/add.ctp:16
+#: Template/Admin/Toplists/edit.ctp:16
+#: Template/Admin/Toplists/index.ctp:16
+#: Template/Toplists/index.ctp:5
+msgid "Toplists"
+msgstr ""
+
+#: Template/Admin/Element/sidebar.ctp:30
+msgid "Externs"
+msgstr ""
+
+#: Template/Admin/Element/sidebar.ctp:31
+msgid "Interns"
+msgstr ""
+
+#: Template/Admin/Element/sidebar.ctp:34
+msgid "Locations"
+msgstr ""
+
+#: Template/Admin/Element/sidebar.ctp:37
+#: Template/Admin/States/add.ctp:16
+#: Template/Admin/States/edit.ctp:16
+#: Template/Admin/States/index.ctp:16
+#: Template/States/add.ctp:16
+#: Template/States/edit.ctp:16
+#: Template/States/index.ctp:16
+msgid "States"
+msgstr ""
+
+#: Template/Admin/Element/sidebar.ctp:40
+#: Template/Admin/Users/add.ctp:16
+#: Template/Admin/Users/change_password.ctp:16
+#: Template/Admin/Users/edit.ctp:16
+#: Template/Admin/Users/index.ctp:16
+msgid "Users"
+msgstr ""
+
+#: Template/Admin/Element/sidebar.ctp:42
+msgid "Configurations"
+msgstr ""
+
+#: Template/Admin/Element/sidebar.ctp:45
+msgid "Contacts Types"
+msgstr ""
+
+#: Template/Admin/Element/sidebar.ctp:46
+#: Template/Admin/Notifications/add.ctp:16
+#: Template/Admin/Notifications/edit.ctp:16
+#: Template/Admin/Notifications/index.ctp:16
+msgid "Notifications"
+msgstr ""
+
+#: Template/Admin/Element/sidebar.ctp:47
+#: Template/Admin/MetaTypes/add.ctp:16
+#: Template/Admin/MetaTypes/edit.ctp:16
+#: Template/Admin/MetaTypes/index.ctp:16
+msgid "Meta Types"
+msgstr ""
+
+#: Template/Admin/Element/sidebar.ctp:48
+msgid "User Groups"
+msgstr ""
+
+#: Template/Admin/Element/sidebar.ctp:80
+#: Template/Element/menu.ctp:35
+msgid "Logout"
+msgstr ""
+
+#: Template/Admin/Groups/add.ctp:16
+#: Template/Admin/Groups/edit.ctp:16
+#: Template/Admin/Groups/index.ctp:16
+msgid "Groups"
+msgstr ""
+
+#: Template/Admin/Groups/add.ctp:20
+#: Template/Admin/Groups/edit.ctp:26
+msgid "List Groups"
+msgstr ""
+
+#: Template/Admin/Groups/add.ctp:32
+msgid "Add Group"
+msgstr ""
+
+#: Template/Admin/Groups/edit.ctp:38
+msgid "Edit Group"
+msgstr ""
+
+#: Template/Admin/Groups/view.ctp:56
+msgid "Related Users"
+msgstr ""
+
+#: Template/Admin/Groups/view.ctp:66
+#: Template/Admin/Users/view.ctp:48
+msgid "Password"
+msgstr ""
+
+#: Template/Admin/Groups/view.ctp:67
+#: Template/Admin/Users/view.ctp:52
+msgid "Ip Address"
+msgstr ""
+
+#: Template/Admin/Groups/view.ctp:68
+msgid "Group Id"
+msgstr ""
+
+#: Template/Admin/Layout/error.ctp:35
+#: Template/Layout/error.ctp:35
+#: Template/Error/error400.ctp:37
+#: Template/Error/error500.ctp:42
+msgid "Error"
+msgstr ""
+
+#: Template/Admin/MetaTypes/add.ctp:20
+#: Template/Admin/MetaTypes/edit.ctp:26
+msgid "List Meta Types"
+msgstr ""
+
+#: Template/Admin/MetaTypes/add.ctp:32
+msgid "Add Meta Type"
+msgstr ""
+
+#: Template/Admin/MetaTypes/edit.ctp:38
+msgid "Edit Meta Type"
+msgstr ""
+
+#: Template/Admin/MetaTypes/view.ctp:52
+msgid "Related Metas"
+msgstr ""
+
+#: Template/Admin/MetaTypes/view.ctp:60
+#: Template/Admin/Metas/view.ctp:54
+msgid "Content"
+msgstr ""
+
+#: Template/Admin/MetaTypes/view.ctp:62
+msgid "Meta Type Id"
+msgstr ""
+
+#: Template/Admin/Metas/add.ctp:20
+#: Template/Admin/Metas/edit.ctp:26
+msgid "List Metas"
+msgstr ""
+
+#: Template/Admin/Metas/add.ctp:32
+msgid "Add Meta"
+msgstr ""
+
+#: Template/Admin/Metas/edit.ctp:38
+msgid "Edit Meta"
+msgstr ""
+
+#: Template/Admin/Metas/view.ctp:44
+msgid "Meta Type"
+msgstr ""
+
+#: Template/Admin/Notifications/add.ctp:20
+#: Template/Admin/Notifications/edit.ctp:26
+msgid "List Notifications"
+msgstr ""
+
+#: Template/Admin/Notifications/add.ctp:32
+msgid "Add Notification"
+msgstr ""
+
+#: Template/Admin/Notifications/edit.ctp:38
+msgid "Edit Notification"
+msgstr ""
+
+#: Template/Admin/Notifications/view.ctp:60
+msgid "Send Test"
+msgstr ""
+
+#: Template/Admin/PageInfos/add.ctp:16
+#: Template/Admin/PageInfos/edit.ctp:16
+#: Template/Admin/PageInfos/index.ctp:16
+#: Template/PageInfos/index.ctp:13
+msgid "Page Infos"
+msgstr ""
+
+#: Template/Admin/PageInfos/add.ctp:20
+#: Template/Admin/PageInfos/edit.ctp:26
+#: Template/PageInfos/add.ctp:9
+#: Template/PageInfos/edit.ctp:15
+#: Template/PageInfos/view.ctp:11
+msgid "List Page Infos"
+msgstr ""
+
+#: Template/Admin/PageInfos/add.ctp:32
+#: Template/PageInfos/add.ctp:15
+msgid "Add Page Info"
+msgstr ""
+
+#: Template/Admin/PageInfos/edit.ctp:38
+#: Template/PageInfos/edit.ctp:21
+#: Template/PageInfos/view.ctp:9
+msgid "Edit Page Info"
+msgstr ""
+
+#: Template/Admin/PageInfos/view.ctp:48
+#: Template/Admin/Partners/view.ctp:48
+#: Template/PageInfos/view.ctp:27
+msgid "Position"
+msgstr ""
+
+#: Template/Admin/Partners/add.ctp:20
+#: Template/Admin/Partners/edit.ctp:26
+msgid "List Partners"
+msgstr ""
+
+#: Template/Admin/Partners/add.ctp:32
+msgid "Add Partner"
+msgstr ""
+
+#: Template/Admin/Partners/edit.ctp:38
+msgid "Edit Partner"
+msgstr ""
+
+#: Template/Admin/Partners/view.ctp:54
+msgid "Banner"
+msgstr ""
+
+#: Template/Admin/Pics/add.ctp:20
+#: Template/Admin/Pics/edit.ctp:26
+#: Template/Pics/add.ctp:20
+#: Template/Pics/edit.ctp:26
+msgid "List Pics"
+msgstr ""
+
+#: Template/Admin/Pics/add.ctp:32
+#: Template/Admin/Pics/add_to_announce.ctp:32
+#: Template/Pics/add.ctp:32
+#: Template/Pics/my_pics.ctp:18
+msgid "Add Pic"
+msgstr ""
+
+#: Template/Admin/Pics/add_to_announce.ctp:20
+msgid "Back To Announce"
+msgstr ""
+
+#: Template/Admin/Pics/edit.ctp:38
+#: Template/Pics/edit.ctp:38
+msgid "Edit Pic"
+msgstr ""
+
+#: Template/Admin/Pics/view.ctp:48
+msgid "Announce"
+msgstr ""
+
+#: Template/Admin/Posts/add.ctp:20
+#: Template/Admin/Posts/edit.ctp:26
+msgid "List Posts"
+msgstr ""
+
+#: Template/Admin/Posts/add.ctp:32
+msgid "Add Post"
+msgstr ""
+
+#: Template/Admin/Posts/edit.ctp:38
+msgid "Edit Post"
+msgstr ""
+
+#: Template/Admin/Posts/view.ctp:55
+msgid "Img Alt"
+msgstr ""
+
+#: Template/Admin/States/add.ctp:20
+#: Template/Admin/States/edit.ctp:26
+#: Template/Ads/add.ctp:14
+#: Template/Ads/edit.ctp:20
+#: Template/Ads/index.ctp:14
+#: Template/Ads/view.ctp:17
+#: Template/States/add.ctp:20
+#: Template/States/edit.ctp:26
+msgid "List States"
+msgstr ""
+
+#: Template/Admin/States/add.ctp:32
+#: Template/States/add.ctp:32
+msgid "Add State"
+msgstr ""
+
+#: Template/Admin/States/edit.ctp:38
+#: Template/States/edit.ctp:38
+msgid "Edit State"
+msgstr ""
+
+#: Template/Admin/Toplists/add.ctp:20
+#: Template/Admin/Toplists/edit.ctp:26
+msgid "List Toplists"
+msgstr ""
+
+#: Template/Admin/Toplists/add.ctp:32
+msgid "Add Toplist"
+msgstr ""
+
+#: Template/Admin/Toplists/edit.ctp:38
+msgid "Edit Toplist"
+msgstr ""
+
+#: Template/Admin/Users/add.ctp:20
+#: Template/Admin/Users/change_password.ctp:26
+#: Template/Admin/Users/edit.ctp:26
+msgid "List Users"
+msgstr ""
+
+#: Template/Admin/Users/add.ctp:32
+msgid "Add User"
+msgstr ""
+
+#: Template/Admin/Users/change_password.ctp:38
+msgid "Change User Password"
+msgstr ""
+
+#: Template/Admin/Users/change_password.ctp:45
+#: Template/Users/change_password.ctp:6
+msgid "New Password"
+msgstr ""
+
+#: Template/Admin/Users/edit.ctp:38
+msgid "Edit User"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:56
+msgid "Group"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:142
+msgid "Related Toplists"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:158
+msgid "In"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:159
+msgid "Out"
+msgstr ""
+
+#: Template/Ads/add.ctp:13
+#: Template/Ads/edit.ctp:19
+#: Template/Ads/index.ctp:13
+#: Template/Ads/view.ctp:16
+msgid "New Contract"
+msgstr ""
+
+#: Template/Ads/add.ctp:15
+#: Template/Ads/edit.ctp:21
+#: Template/Ads/index.ctp:15
+#: Template/Ads/view.ctp:18
+msgid "New State"
+msgstr ""
+
+#: Template/Ads/add.ctp:17
+#: Template/Ads/edit.ctp:23
+#: Template/Ads/index.ctp:17
+#: Template/Ads/view.ctp:20
+msgid "New Category"
+msgstr ""
+
+#: Template/Ads/view.ctp:10
+msgid "Delete Ad"
+msgstr ""
+
+#: Template/Announces/add.ctp:6
+#: Template/Element/menu.ctp:24
+msgid "Publier une annonce"
+msgstr ""
+
+#: Template/Announces/edit_my_announce.ctp:31
+msgid "Cancel"
+msgstr ""
+
+#: Template/Announces/free_index.ctp:5
+msgid "Announces gratuites"
+msgstr ""
+
+#: Template/Announces/free_view.ctp:5
+#: Template/Element/menu.ctp:23
+msgid "Missives"
+msgstr ""
+
+#: Template/Announces/my_announce.ctp:16
+msgid "Edit Text"
+msgstr ""
+
+#: Template/Announces/my_announce.ctp:17
+msgid "Edit Pics"
+msgstr ""
+
+#: Template/Announces/my_announce.ctp:20
+msgid "Connected till : "
+msgstr ""
+
+#: Template/Announces/my_announce.ctp:22
+msgid "Be Online"
+msgstr ""
+
+#: Template/Bake/Element/form.ctp:43
+#: Template/Bake/Template/index.ctp:48
+msgid "<%= $pluralHumanName %>"
+msgstr ""
+
+#: Template/Bake/Element/form.ctp:55
+msgid "List <%= $pluralHumanName %>"
+msgstr ""
+
+#: Template/Bake/Element/form.ctp:67
+msgid "<%= Inflector::humanize($action) %> <%= $singularHumanName %>"
+msgstr ""
+
+#: Template/Bake/Template/login.ctp:20
+msgid "Please enter your username and password"
+msgstr ""
+
+#: Template/Bake/Template/login.ctp:24
+msgid "Login"
+msgstr ""
+
+#: Template/Bake/Template/view.ctp:98
+msgid "<%= Inflector::humanize($details["
+msgstr ""
+
+#: Template/Bake/Template/view.ctp:103;120;136;146;170
+msgid "<%= Inflector::humanize($field) %>"
+msgstr ""
+
+#: Template/Bake/Template/view.ctp:112
+msgid "<%= Inflector::humanize(Inflector::singularize(Inflector::underscore($alias))) %>"
+msgstr ""
+
+#: Template/Bake/Template/view.ctp:162
+msgid "Related <%= $otherPluralHumanName %>"
+msgstr ""
+
+#: Template/Categories/view.ctp:116
+#: Template/States/view.ctp:112
+msgid "Old Announce Number"
+msgstr ""
+
+#: Template/Categories/view.ctp:123
+#: Template/States/view.ctp:119
+msgid "Out-in"
+msgstr ""
+
+#: Template/Element/footer.ctp:12
+msgid "Sites de rencontre"
+msgstr ""
+
+#: Template/Element/footer.ctp:13
+msgid "Echange de liens"
+msgstr ""
+
+#: Template/Element/footer.ctp:14
+msgid "FAQs"
+msgstr ""
+
+#: Template/Element/footer.ctp:15
+msgid "Contact"
+msgstr ""
+
+#: Template/Element/menu.ctp:17
+#: Template/Pages/home.ctp:5
+msgid "Libertines"
+msgstr ""
+
+#: Template/Element/menu.ctp:18
+#: Template/Pages/home.ctp:6
+msgid "Libertins"
+msgstr ""
+
+#: Template/Element/menu.ctp:19
+#: Template/Pages/home.ctp:7
+msgid "BDSM"
+msgstr ""
+
+#: Template/Element/menu.ctp:20
+#: Template/Pages/home.ctp:8
+msgid "Transgenres"
+msgstr ""
+
+#: Template/Element/menu.ctp:25
+msgid "POST-LIBRES"
+msgstr ""
+
+#: Template/Element/menu.ctp:26
+msgid "TOPLIST"
+msgstr ""
+
+#: Template/Element/menu.ctp:33
+msgid "My Announces"
+msgstr ""
+
+#: Template/Element/menu.ctp:34
+msgid "Change Password"
+msgstr ""
+
+#: Template/Element/menu.ctp:39
+#: Template/Layout/Email/html/lovesita.ctp:415
+#: Template/Users/login.ctp:15
+msgid "Connexion"
+msgstr ""
+
+#: Template/Layout/Email/html/lovesita.ctp:415
+msgid "Visit website"
+msgstr ""
+
+#: Template/PageInfos/index.ctp:9
+#: Template/PageInfos/view.ctp:12
+msgid "New Page Info"
+msgstr ""
+
+#: Template/PageInfos/view.ctp:10
+msgid "Delete Page Info"
+msgstr ""
+
+#: Template/PageInfos/view.ctp:36
+msgid "Text"
+msgstr ""
+
+#: Template/Pics/my_pics.ctp:9
+msgid "Replace"
+msgstr ""
+
+#: Template/Posts/index.ctp:5
+#: Template/Posts/view.ctp:5
+msgid "Post-libres"
+msgstr ""
+
+#: Template/Users/login.ctp:13
+msgid "Forgot your password"
+msgstr ""
+
+#: Template/Users/recover.ctp:4
+msgid "Enter your email and we send you en new passowrd"
+msgstr ""
+
+#: Template/Users/recover.ctp:7
+msgid "Your email"
+msgstr ""
+
+#: Template/Error/error400.ctp:38
+msgid "The requested address {0} was not found on this server."
+msgstr ""
+
+#: Template/Error/error500.ctp:40
+msgid "An Internal Error Has Occurred"
+msgstr ""
+
+#: Controller/Component/AuthComponent.php:496
+msgid "You are not authorized to access that location."
+msgstr ""
+
+#: Controller/Component/CsrfComponent.php:155
+msgid "Missing CSRF token cookie"
+msgstr ""
+
+#: Controller/Component/CsrfComponent.php:159
+msgid "CSRF token mismatch."
+msgstr ""
+
+#: Error/ExceptionRenderer.php:258
+msgid "Not Found"
+msgstr ""
+
+#: Error/ExceptionRenderer.php:260
+msgid "An Internal Error Has Occurred."
+msgstr ""
+
+#: Http/Response.php:2259
+msgid "The requested file contains `..` and will not be read."
+msgstr ""
+
+#: Http/Response.php:2270
+msgid "The requested file was not found"
+msgstr ""
+
+#: I18n/Number.php:90
+msgid "{0,number,#,###.##} KB"
+msgstr ""
+
+#: I18n/Number.php:92
+msgid "{0,number,#,###.##} MB"
+msgstr ""
+
+#: I18n/Number.php:94
+msgid "{0,number,#,###.##} GB"
+msgstr ""
+
+#: I18n/Number.php:96
+msgid "{0,number,#,###.##} TB"
+msgstr ""
+
+#: I18n/Number.php:88
+msgid "{0,number,integer} Byte"
+msgid_plural "{0,number,integer} Bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} from now"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:83
+msgid "{0} after"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:83
+msgid "{0} before"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:114
+msgid "just now"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:151
+msgid "about a second ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:152
+msgid "about a minute ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:153
+msgid "about an hour ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:154;332
+msgid "about a day ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:155;333
+msgid "about a week ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:156;334
+msgid "about a month ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:157;335
+msgid "about a year ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:168
+msgid "in about a second"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:169
+msgid "in about a minute"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:170
+msgid "in about an hour"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:171;346
+msgid "in about a day"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:172;347
+msgid "in about a week"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:173;348
+msgid "in about a month"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:174;349
+msgid "in about a year"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:304
+msgid "today"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:370
+msgid "%s ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:371
+msgid "on %s"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:47;126;316
+msgid "{0} year"
+msgid_plural "{0} years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:51;129;319
+msgid "{0} month"
+msgid_plural "{0} months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:57;132;322
+msgid "{0} week"
+msgid_plural "{0} weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:59;135;325
+msgid "{0} day"
+msgid_plural "{0} days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:64;138
+msgid "{0} hour"
+msgid_plural "{0} hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:68;141
+msgid "{0} minute"
+msgid_plural "{0} minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:72;144
+msgid "{0} second"
+msgid_plural "{0} seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ORM/RulesChecker.php:57
+msgid "This value is already in use"
+msgstr ""
+
+#: ORM/RulesChecker.php:104
+msgid "This value does not exist"
+msgstr ""
+
+#: ORM/RulesChecker.php:128
+msgid "The count does not match {0}{1}"
+msgstr ""
+
+#: Utility/Text.php:899
+msgid "and"
+msgstr ""
+
+#: Validation/Validator.php:103
+msgid "This field is required"
+msgstr ""
+
+#: Validation/Validator.php:104
+msgid "This field cannot be left empty"
+msgstr ""
+
+#: Validation/Validator.php:1782
+msgid "The provided value is invalid"
+msgstr ""
+
+#: View/Helper/FormHelper.php:1008
+msgid "New %s"
+msgstr ""
+
+#: View/Helper/FormHelper.php:1011
+msgid "Edit %s"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:540
+msgid "January"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:541
+msgid "February"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:542
+msgid "March"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:543
+msgid "April"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:544
+msgid "May"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:545
+msgid "June"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:546
+msgid "July"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:547
+msgid "August"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:548
+msgid "September"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:549
+msgid "October"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:550
+msgid "November"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:551
+msgid "December"
+msgstr ""
+

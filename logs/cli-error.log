@@ -1,0 +1,628 @@
+2017-04-19 14:57:38 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Annonces" could not be found. in /data01/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php on line 327
+Stack Trace:
+#0 /data01/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('Annonces')
+#1 /data01/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 /data01/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 /data01/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2017-04-19 14:58:09 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Checkvalidity" could not be found. in /data01/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php on line 327
+Stack Trace:
+#0 /data01/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('Checkvalidity')
+#1 /data01/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 /data01/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 /data01/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2017-04-21 00:02:04 Error: [InvalidArgumentException] Invalid email: "iasmimparis@outlook.fr " in /data01/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Mailer/Email.php on line 922
+Stack Trace:
+#0 /data01/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Mailer/Email.php(885): Cake\Mailer\Email->_validateEmail('iasmimparis@out...')
+#1 /data01/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Mailer/Email.php(594): Cake\Mailer\Email->_setEmail('_to', 'iasmimparis@out...', NULL)
+#2 /data01/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Mailer/Email.php(622): Cake\Mailer\Email->setTo('iasmimparis@out...', NULL)
+#3 /data01/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Mailer/Mailer.php(206): Cake\Mailer\Email->to('iasmimparis@out...')
+#4 /data01/sites/www.lovesita.com/src/Mailer/UserMailer.php(32): Cake\Mailer\Mailer->__call('to', Array)
+#5 /data01/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Mailer/Mailer.php(250): App\Mailer\UserMailer->notification('iasmimparis@out...', 'LOveSita: Se te...', '<p class="p1">H...')
+#6 /data01/sites/www.lovesita.com/src/Shell/CheckValidityShell.php(70): Cake\Mailer\Mailer->send('notification', Array)
+#7 /data01/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/Shell.php(472): App\Shell\CheckValidityShell->main()
+#8 /data01/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#9 /data01/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#10 /data01/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#11 /data01/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#12 {main}
+
+
+2017-04-21 09:17:19 Error: [InvalidArgumentException] Invalid email: "daslakaus@gmail.com " in /data01/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Mailer/Email.php on line 922
+Stack Trace:
+#0 /data01/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Mailer/Email.php(885): Cake\Mailer\Email->_validateEmail('daslakaus@gmail...')
+#1 /data01/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Mailer/Email.php(594): Cake\Mailer\Email->_setEmail('_to', 'daslakaus@gmail...', NULL)
+#2 /data01/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Mailer/Email.php(622): Cake\Mailer\Email->setTo('daslakaus@gmail...', NULL)
+#3 /data01/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Mailer/Mailer.php(206): Cake\Mailer\Email->to('daslakaus@gmail...')
+#4 /data01/sites/www.lovesita.com/src/Mailer/UserMailer.php(32): Cake\Mailer\Mailer->__call('to', Array)
+#5 /data01/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Mailer/Mailer.php(250): App\Mailer\UserMailer->notification('daslakaus@gmail...', 'LOveSita: Se te...', '<p class="p1">H...')
+#6 /data01/sites/www.lovesita.com/src/Shell/CheckValidityShell.php(70): Cake\Mailer\Mailer->send('notification', Array)
+#7 /data01/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/Shell.php(472): App\Shell\CheckValidityShell->main()
+#8 /data01/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#9 /data01/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#10 /data01/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#11 /data01/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#12 {main}
+
+
+2017-11-07 15:13:22 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-11-08 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-11-09 00:02:02 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-11-10 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-11-11 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-11-12 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-11-13 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-11-14 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-11-15 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-11-16 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-11-17 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-11-18 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-11-19 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-11-20 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-11-21 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-11-22 00:02:02 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-11-23 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-11-24 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-11-25 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-11-26 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-11-27 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-11-28 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-11-29 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-11-30 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-12-01 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-12-02 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-12-03 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-12-04 00:02:02 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-12-05 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-12-06 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-12-07 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-12-08 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-12-09 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-12-10 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-12-11 00:02:01 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /data02/sites/www.lovesita.com/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /data02/sites/www.lovesita.com/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/data02/sites/w...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(320): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /data02/sites/www.lovesita.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /data02/sites/www.lovesita.com/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-12-15 12:01:29 Error: [ParseError] syntax error, unexpected '=', expecting ']' in /home/lovesita/public_html/src/Shell/CheckValidityShell.php on line 51
+Stack Trace:
+#0 /home/lovesita/public_html/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/home/lovesita/...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Check...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Check...')
+#3 /home/lovesita/public_html/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Shell\\Check...')
+#4 /home/lovesita/public_html/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Shell\\CheckVal...', 'App')
+#5 /home/lovesita/public_html/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(361): Cake\Core\App::className('CheckValidity', 'Shell', 'Shell')
+#6 /home/lovesita/public_html/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(323): Cake\Console\ShellDispatcher->_shellExists('CheckValidity')
+#7 /home/lovesita/public_html/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('CheckValidity')
+#8 /home/lovesita/public_html/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /home/lovesita/public_html/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /home/lovesita/public_html/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+

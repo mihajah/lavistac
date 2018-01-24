@@ -1,0 +1,145 @@
+# Uncomment the following to prevent the httpoxy vulnerability
+# See: https://httpoxy.org/
+#<IfModule mod_headers.c>
+#    RequestHeader unset Proxy
+#</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^(dev)($|/) - [L]
+    RewriteCond %{REQUEST_URI} ^/robots.txt$
+    RewriteRule (.*) robots.txt [L]
+</IfModule> 
+
+
+
+# ---
+# 12/2107
+# permanent redirection
+# complex url
+# ---
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteCond %{REQUEST_URI} ^/toplist.php
+    RewriteCond %{QUERY_STRING} id=([0-9]+)
+	RewriteRule (.*) /escort-girl-paris? [R=301,L]
+
+    RewriteCond %{REQUEST_URI} ^/bans/bnt02.jpg
+    RewriteRule (.*) /escort-girl-paris [R=301,L]
+
+    RewriteCond %{REQUEST_URI} ^/escort-girl-paris.php/pub.php
+    RewriteCond %{QUERY_STRING} action_alist=([a-zA-Z]+)&id=([0-9]+)
+    RewriteRule (.*) /escort-girl-paris? [R=301,L]
+
+    RewriteCond %{REQUEST_URI} ^/escort-girl-paris
+    RewriteCond %{QUERY_STRING} action_alist=([a-zA-Z]+)&id=([0-9]+)
+    RewriteRule (.*) /escort-girl-paris? [R=301,L]
+
+    RewriteCond %{REQUEST_URI} ^/escort-girl-paris.php
+    RewriteCond %{QUERY_STRING} action_alist=([a-zA-Z]+)&id=([0-9]+)
+    RewriteRule (.*) /escort-girl-paris? [R=301,L]
+
+    RewriteCond %{REQUEST_URI} ^/mobile/index.php
+    RewriteCond %{QUERY_STRING} action_alist=([a-zA-Z]+)&id=([0-9]+)
+    RewriteRule (.*) /escort-girl-paris? [R=301,L]
+
+    RewriteCond %{REQUEST_URI} ^/escort-girl-paris/167-01er-arrondissement-de-Paris
+    RewriteRule (.*) /escort-girl-paris/1 [R=301,L]
+
+    RewriteCond %{REQUEST_URI} ^/recherche-libertine-ville/167-01er-arrondissement-de-Paris
+    RewriteRule (.*) /escort-girl-paris/1 [R=301,L]
+
+    RewriteCond %{REQUEST_URI} ^/recherche-libertine-ville/([0-9]+)-0([0-9]+)e-arrondissement-de-Paris$
+    RewriteRule ([0-9]+)-0([0-9]+) /escort-girl-paris/$2 [R=301,L]
+
+    RewriteCond %{REQUEST_URI} ^/recherche-libertine-ville/([0-9]+)-1([0-9]+)e-arrondissement-de-Paris$
+    RewriteRule ([0-9]+)-1([0-9]+) /escort-girl-paris/1$2 [R=301,L]
+
+    RewriteCond %{REQUEST_URI} ^/recherche-libertine-ville/186-20e-arrondissement-de-Paris$
+    RewriteRule (.*) /escort-girl-paris/20 [R=301,L]
+</IfModule>
+
+# important ! used by cakePhp
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteBase /
+    RewriteRule    ^$    webroot/    [L]
+    RewriteRule    (.*) webroot/$1    [L]
+</IfModule>
+
+
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php71” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddType application/x-httpd-ea-php71 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
+
+# ---
+# 12/2107
+# permanent redirection
+# simple url
+# ---
+
+Redirect 301 /partners https://www.lovesita.com/escort-girl-paris
+
+Redirect 301 /searchbycity.php https://www.lovesita.com/escort-girl-paris
+
+#Redirect /toplist.php?id=130 https://www.lovesita.com/escort-girl-paris
+
+Redirect 301 /toplists/in/90 https://www.lovesita.com/escort-girl-paris
+
+Redirect 301 /toplists/in/147 https://www.lovesita.com/escort-girl-paris
+
+Redirect 301 /toplists/in/43 https://www.lovesita.com/escort-girl-paris
+
+Redirect 301 /toplists/in/199 https://www.lovesita.com/escort-girl-paris
+
+Redirect 301 /post-libres/the-soduretre-facial-activities-which-presents-all-of-the-new-risk https://www.lovesita.com/post-libres/le-soduretre-activite-peu-pratiquee-qui-presente-tout-de-meme-de-nombreux-risques
+
+Redirect 301 /post-libres/the-fessee-erotic-or-spanking-is-extra-sexual-sexual-libertine https://www.lovesita.com/post-libres/la-fessee-erotique-ou-spanking-est-une-pratique-sexuelle-libertine
+
+Redirect 301 /escort-girl-paris/france/lyon https://www.lovesita.com/escort-girl-paris/rhones-alpes/lyon
+
+Redirect 301 /escort-girl-paris/france/centre https://www.lovesita.com/escort-girl-paris/centre-val-de-loire
+
+Redirect 301 /escort-girl-paris/france/bretagne-loire-normandie https://www.lovesita.com/escort-girl-paris/bretagne
+
+Redirect 301 /escort-girl-paris/france/grand-est https://www.lovesita.com/escort-girl-paris/grand-est
+
+Redirect 301 /escort-girl-paris/france/nord https://www.lovesita.com/escort-girl-paris/hauts-de-france
+
+Redirect 301 /escort-girl-paris/france/toulouse-bordeaux https://www.lovesita.com/escort-girl-paris/midi-pyrenees/toulouse
+
+# ---
+# redirection from php to htaccess
+# ---
+
+Redirect 301 /libertines https://www.lovesita.com/escort-girl-paris
+Redirect 301 /home.php https://www.lovesita.com
+Redirect 301 /BDSM https://www.lovesita.com/bdsm
+Redirect 301 /libertins https://www.lovesita.com/escort-gay-hetero
+Redirect 301 /transgenres https://www.lovesita.com/escort-trans-paris
+RedirectMatch 301 ^/annonces/index/1/(.*)$ https://www.lovesita.com/escort-girl-paris
+RedirectMatch 301 ^/annonces/index/2/(.*)$ https://www.lovesita.com/escort-gay-hetero
+RedirectMatch 301 ^/annonces/index/3/(.*)$ https://www.lovesita.com/bdsm
+RedirectMatch 301 ^/annonces/index/4/(.*)$ https://www.lovesita.com/escort-trans-paris
+RedirectMatch 301 ^/posts/index/page:([0-9]+)$ https://www.lovesita.com/post-libres?page=$1
+Redirect 301 /pub.php https://www.lovesita.com
+Redirect 301 /mlegal.php https://www.lovesita.com/avis-legal
+Redirect 301 /toplist-lovesita https://www.lovesita.com/toplist
+Redirect 301 /escort-girl-paris.php https://www.lovesita.com/escort-girl-paris
+
+
+
+
+
+
+
+
+
+
+

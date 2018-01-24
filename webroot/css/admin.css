@@ -1,0 +1,59 @@
+.full-page .full-page-background { position: absolute; z-index: 1; height: 100%; width: 100%; display: block; top: 0; left: 0; background-size: inherit; background-position: center center; }
+.checkbox input,
+.radio input { outline: none !important; opacity: 1; margin-left: 0px; position: relative; }
+.checkbox input.form-control,
+.radio input.form-control{height:auto !important;width:auto;}
+.checkbox, .radio{padding-left: 0px;}
+.sidebar .sidebar-background {background-size: 100%;}
+.newsletter_content{width: 600px;}
+.datetime,
+.date{margin-bottom: 5px;}
+.datetime label,
+.date label{width:100%;}
+.select-wrap { position: relative;display:block;}
+.datetime .select-wrap,
+.date .select-wrap { position: relative;display:inline-block;}
+.select-wrap:before { content: '\f0d7'; font-family: FontAwesome; color: #505050; display: inline-block; position: absolute;right: 20px; top: 8px; pointer-events: none; }
+select{padding:8px 25px 8px 5px;text-align: left;height:36px;margin-right: 5px;background-color:white; -webkit-appearance: none;-moz-appearance:none;appearance:none;border: 1px solid #ccc;}
+.datetime select
+.date select{padding:8px 35px 8px 15px;text-align: left;height:36px;margin-right: 5px;background-color:white; -webkit-appearance: none;-moz-appearance:none;appearance:none;border: 1px solid #ccc;}
+.sidebar .nav li > a {position: relative;display: block;padding: 1px 15px;}
+.alert {margin-bottom: 0px;}
+.modal-wrapper {display: table-cell;vertical-align: middle;height: 300px;overflow: auto;}
+.counter{font-size: 0.7em}
+#q{ border-right: 1px solid #E3E3E3;}
+.main-panel{overflow:scroll !important;}
+
+p.code{background-color: lightgrey; margin-top: 1em; padding: 1em; border:1px solid black;border-radius: 4px;box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(63, 63, 68, 0.1);}
+
+/*form*/
+.required > label {font-weight: bold}
+.required > label:after {content: ' *';color: #fc727a;}
+.error-message{color: #fc727a;}
+
+.full-page[data-color="azure"]:after {
+   background: #002b3d; /* For browsers that do not support gradients */
+   background: -webkit-linear-gradient(bottom, #002b3d , black); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(bottom, #002b3d, black); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(bottom, #002b3d, black); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(to bottom, #002b3d , black); /* Standard syntax */
+   background-size: 150% 150%;
+}
+
+.sidebar[data-color="azure"]:after,
+.bootstrap-navbar[data-color="azure"]:after {
+   background: #002b3d; /* For browsers that do not support gradients */
+   background: -webkit-linear-gradient(bottom, #002b3d , black); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(bottom, #002b3d, black); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(bottom, #002b3d, black); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(to bottom, #002b3d , black); /* Standard syntax */
+   background-size: 150% 150%;
+}
+a {color: #002b3d;font-weight: bold;}
+
+
+.label-ONLINE{background: rgb(92, 184, 92)}
+.label-WAITING{background-color: #f0ad4e;}
+.label-EXPIRED{background-color: #c9302c;}
+.label-NEW {background-color: #337ab7;}
+.label-ARCHIVED{background-color: #777;}
